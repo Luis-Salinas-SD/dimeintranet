@@ -1,0 +1,20 @@
+#El sigueinte codigo rutea al usuario al archivo index.php, en caso de no encontrar la url typeada.
+<IfModule mod_rewrite.c>
+
+# Desactiva las multivistas
+Options -Multiviews
+
+# Reescritura de la URL
+RewriteEngine On
+# Ruta base
+RewriteBase /site-panel/public/
+
+# - - - Condicionales - - -
+# si el archivo exsiste lo redirije al archivo
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# si el archivo no exsiste lo redirije al index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+
+</IfModule>
