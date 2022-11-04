@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <?php include('../includes/headDashboard.php') ?>
 
 <!-- body start -->
@@ -13,7 +13,6 @@
 
         <!-- ========== Left Sidebar Start ========== -->
         <?php include('../includes/leftSidebar.php') ?>
-
         <!-- ============================================================== -->
         <!-- Start Page Content here -->
         <!-- ============================================================== -->

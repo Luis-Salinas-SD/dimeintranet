@@ -1,38 +1,44 @@
 //! Script correspondiente al archivo de clientes.php
-const checkbox = document.querySelector('#client-check')
-const tokenn = document.querySelector('#token')
+const checkbox = document.getElementById('client-check')
+const tokenn = document.getElementById('token')
 
-checkbox.addEventListener('click', (e) => {
-
-    if (tokenn.style.display === 'none') {
-        tokenn.style.display = 'block'
-    } else {
-        tokenn.style.display = 'none'
-    }
-})
-
-//! Script correspondiente al archivo de cotizaciones.php 
-let validarDivision = document.querySelector('#selectDiv');
-let validarClient = document.querySelector('#selectClient');
+if (checkbox) {
+    checkbox.addEventListener('click', () => {
+        if (tokenn.style.display === 'none') {
+            tokenn.style.display = 'block'
+        } else {
+            tokenn.style.display = 'none'
+        }
+    })
+}
+//! Script correspondiente al archivo de cotizaciones.php
+console.log('Hola');
+let validarDivision = document.getElementById('selectDiv');
+let validarClient = document.getElementById('selectClient');
 
 let index
-let valor = ' ';
+let valor = '';
 let index2
-let valor2 = ' ';
+let valor2 = '';
 
-//* addEventListener 1
-validarDivision.addEventListener('change', (e) => {
-    index = validarDivision.selectedIndex;
-    valor = validarDivision.value;
-    cambio()
-})
+if (validarDivision) {
+    //* addEventListener 1
+    validarDivision.addEventListener('change', () => {
+        index = validarDivision.selectedIndex;
+        valor = validarDivision.value;
+        cambio()
+    })
+}
 
-//* addEventListener 2
-validarClient.addEventListener('change', (e) => {
-    index2 = validarClient.selectedIndex;
-    valor2 = validarClient.value;
-    cambio()
-})
+if (validarClient) {
+    //* addEventListener 2
+    validarClient.addEventListener('change', () => {
+        index2 = validarClient.selectedIndex;
+        valor2 = validarClient.value;
+        cambio()
+    })
+}
+
 
 function cambio() {
     if (index != 0 && index2 != 0) {
@@ -57,7 +63,5 @@ const agregarFila = () => {
     <td>1</td>
     <td>1x</td>`
 }
-
-console.log('hola');
 
 

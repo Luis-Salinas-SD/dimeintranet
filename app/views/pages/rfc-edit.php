@@ -30,8 +30,8 @@
                                     <form action="" class="m-2">
                                         <div class="tab-content">
                                             <div class="tab-pane active" id="principal">
-                                                <div class="row">
-                                                    <div class="col-6">
+                                                <div class="row d-flex flex-wrap">
+                                                    <div class="col-12 col-md-6">
                                                         <div class="mb-3">
                                                             <label class="form-label">Nombre de la Empresa</label>
                                                             <input type="text" id="empresa" class="form-control">
@@ -76,12 +76,18 @@
                                                             <button type="submit" class="btn btn-primary waves-effect waves-light">Guardar</button>
                                                         </div>
                                                     </div>
-                                                    <div class="col-6">
+                                                    <div class="col-12 col-md-6">
                                                         <div class="card card-draggable ui-sortable-handle">
                                                             <div class="card-body">
-                                                                <h4 class="card-title bg-blue">Card title</h4>
-                                                                <p class="card-text">Some quick example text to build on the card title and make
-                                                                    up the bulk of the card's content.</p>
+                                                                <h4 class="card-title bg-success p-2 text-white">Clientes Recientes</h4>
+                                                                <div class="d-flex">
+                                                                    <img src="https://midime.com.mx/public/images/client_image.png" alt="CORPORATIVO NAERCRIS">
+                                                                    <div class="card">
+                                                                        <span class="name">CORPORATIVO NAERCRIS</span>
+                                                                        <span class="forward"><abbr class="timeago" title="2022-10-17 12:08:01">Hace 17 días</abbr></span>
+                                                                    </div>
+                                                                    <div class="b">Teléfono : 9612364878. <br> Email : GERENTE.VENTAS@NAERCRIS.COM.MX</div>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
