@@ -22,10 +22,11 @@
                 <div class="container-fluid">
                     <div class="row">
                         <h1>Cotizaciones</h1>
-                        <!--# Button - Add client -->
-                        <button type="button" class="btn btn-success waves-effect waves-light col-4  col-md-2 col-sm-4 m-2" data-bs-toggle="modal" data-bs-target="#con-close-modal">Nueva Cotización
+                        <!--# Button - Add Cotizacion -->
+                        <button type="button" class="btn btn-success waves-effect waves-light col-4  col-md-2 col-sm-4 m-2" data-bs-toggle="modal" data-bs-target="#con-close-modal">
+                            Nueva Cotización
                         </button>
-                        <!--! Modal Formulario init -->
+                        <!--! Modal Nueva cotización -->
                         <div id="con-close-modal" class="modal fade" tabindex="-1" aria-labelledby="myModalLabel" style="display: none;" aria-hidden="true">
                             <div class="modal-dialog modal-lg">
                                 <div class="modal-content">
@@ -140,7 +141,146 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- Modal Formulario fin -->
+                        <!-- Modal Editar cotización -->
+                        <div id="modalEdit" class=" modal fade" tabindex="-1" aria-labelledby="myModalLabel" style="display: none;" aria-hidden="true">
+                            <div class="modal-dialog modal-full-width">
+                                <div class="modal-content">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <h4 class="header-title mb-4">Cotización</h4>
+                                            </div>
+                                            <div>
+                                                <button type="button" class="btn btn-info waves-effect waves-light my-2">
+                                                    <span class="btn-label"><i class="mdi mdi-download"></i></span>
+                                                    Descargar
+                                                </button>
+                                                <button type="button" class="btn btn-info waves-effect waves-light my-2">
+                                                    <span class="btn-label"><i class="mdi mdi-email"></i></span>
+                                                    Enviar
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <ul class="nav nav-tabs">
+                                            <li class="nav-item">
+                                                <a href="#form1" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
+                                                    Información
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#form2" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
+                                                    Seguimiento
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <div class="tab-content">
+                                            <div class="tab-pane active" id="form1">
+                                                <!--! Seleccion  Division-->
+                                                <div class="m-3">
+                                                    <div class="table-responsive">
+                                                        <table class="table table-bordered table-striped table-hover">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>CANTIDAD</th>
+                                                                    <th>ARTICULO</th>
+                                                                    <th>CARACTERÍSTICAS</th>
+                                                                    <th>PRECIO UNITARIO</th>
+                                                                    <th>IMPORTE</th>
+                                                                    <th>IMPORTE CON IVA</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
 
+                                                                <tr>
+                                                                    <td>1</td>
+                                                                    <td>Servicio De Naming</td>
+                                                                    <td>Texto Descriptivo aquí</td>
+                                                                    <td>$3,879.31</td>
+                                                                    <td>$3,879.31</td>
+                                                                    <td>$4,500.00</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>1</td>
+                                                                    <td>Plan De Logotipo Identidad</td>
+                                                                    <td><strong>Propuestas</strong>
+                                                                        Se Presentaran Hasta 4 Propuestas En Formatos De Entrega De 1 Por Cada Ocasión Para Su Revisión.
+
+                                                                        <strong>Tipografía</strong>
+                                                                        Se Hará Entrega De La Fuente Tipográfica Con La Cual Está Compuesto El Logotipo Para Su Aplicación A Usos Diversos O Posteriores.
+                                                                    </td>
+                                                                    <td>$12,300.00</td>
+                                                                    <td>$12,300.00</td>
+                                                                    <td>$14,268.00</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>1</td>
+                                                                    <td>Página Web Pro</td>
+                                                                    <td>Texto Descriptivo aquí</td>
+                                                                    <td>$7,068.97</td>
+                                                                    <td>$7,068.97</td>
+                                                                    <td>$8,200.01</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>1</td>
+                                                                    <td>Plan Integral </td>
+                                                                    <td>Texto Descriptivo aquí</td>
+                                                                    <td>$19,761.03</td>
+                                                                    <td>$19,761.03</td>
+                                                                    <td>$22,922.79</td>
+
+                                                                </tr>
+                                                            </tbody>
+                                                            <tfoot>
+                                                                <tr>
+                                                                    <td colspan="4" style="text-align: right">SUB TOTAL : </td>
+                                                                    <td>$43,009.31</td>
+                                                                    <td></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="4" style="text-align: right"> I.V.A</td>
+                                                                    <td>$6,881.49</td>
+                                                                    <td></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="4" style="text-align: right"> TOTAL</td>
+                                                                    <td>$49,890.80</td>
+                                                                    <td></td>
+                                                                </tr>
+                                                            </tfoot>
+                                                        </table>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="tab-pane show" id="form2">
+                                                <form>
+                                                    <!--% alta  -->
+                                                    <div class="modal-body">
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <div class="mb-3">
+                                                                    <label for="field-1" class="form-label">
+                                                                        Observación
+                                                                    </label>
+                                                                    <input type="text" class="form-control" id="observacion" placeholder="Observación" required>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="submit" class="btn btn-primary waves-effect waves-light">Guardar</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <!-- Modal Formulario fin -->
                         <!-- Filtros search init-->
                         <div class="col-lg-12">
@@ -188,16 +328,16 @@
                                                     <td>Nico</td>
                                                     <td>6/11/2021</td>
                                                     <td>
-                                                        <a data-bs-toggle="tooltip" title="Detalles" href="#" class="btn btn-success">
+                                                        <a data-bs-toggle="tooltip" title="Detalles" href="./cotizacion-details.php" class="btn btn-success">
                                                             <i class="fa fa-eye"></i>
                                                         </a>
-                                                        <a data-bs-toggle="tooltip" title="Editar" data-original-title="Detalles" href="#" class="btn btn-info">
+                                                        <a title="Editar" class="btn btn-info" data-bs-target="#modalEdit" data-bs-toggle="modal">
                                                             <i class="fa fa-edit"></i>
                                                         </a>
-                                                        <a data-bs-toggle="tooltip" title="Desactivar" data-original-title="Detalles" href="#" class="btn btn-danger">
+                                                        <a data-bs-toggle="tooltip" title="Desactivar" class="btn btn-danger">
                                                             <i class="fa fa-ban"></i>
                                                         </a>
-                                                        <a data-bs-toggle="tooltip" title="Correo" data-original-title="Detalles" href="#" class="btn btn-success">
+                                                        <a data-bs-toggle="tooltip" title="Correo" class="btn btn-success">
                                                             <i class="fa far fa-envelope-open"></i>
                                                         </a>
                                                     </td>

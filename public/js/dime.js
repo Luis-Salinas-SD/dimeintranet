@@ -12,7 +12,6 @@ if (checkbox) {
     })
 }
 //! Script correspondiente al archivo de cotizaciones.php
-console.log('Hola');
 let validarDivision = document.getElementById('selectDiv');
 let validarClient = document.getElementById('selectClient');
 
