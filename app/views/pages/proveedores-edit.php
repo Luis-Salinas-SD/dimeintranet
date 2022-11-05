@@ -26,136 +26,128 @@
                         <div class="col-lg-12">
                             <div class="card">
                                 <div class="card-body">
-                                    <div class="table-responsive">
-                                        <h3>Proveedor</h3>
-                                        <table class="table table-bordered table-hover table-striped">
-                                            <tbody>
-                                                <tr>
-                                                    <th colspan="4">
-                                                        <div class="d-flex bd-highlight">
-                                                            <div class="p-1 w-100 bd-highlight text-center">
-                                                                Información Personal
-                                                            </div>
-                                                            <div class="p-1 flex-shrink-2 bd-highlight">
-                                                                <a class="pull-right btn btn-primary" href="#">
-                                                                    <i class="fa fa-edit"></i>
-                                                                    Editar
-                                                                </a>
-                                                            </div>
+                                    <form>
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="mb-3">
+                                                        <label for="field-1" class="form-label">Nombre de la
+                                                            Empresa</label>
+                                                        <input type="text" class="form-control" id="field-1" placeholder="Empresa" required>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="mb-3">
+                                                        <label for="field-2" class="form-label">Nombre del
+                                                            representante</label>
+                                                        <input type="text" class="form-control" id="field-2" placeholder="Nombre del representante" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="mb-3">
+                                                        <label for="field-1" class="form-label">Nombre de la persona de
+                                                            contacto</label>
+                                                        <input type="text" class="form-control" id="field-1" placeholder="Nombre de la persona de contacto" required>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="mb-3">
+                                                        <label for="field-2" class="form-label">
+                                                            Tipo de Persona</label>
+                                                        <select class="form-select">
+                                                            <option selected disabled>Elige una opción</option>
+                                                            <option>Persona Física</option>
+                                                            <option>Persona Moral</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="mb-3">
+                                                        <label for="field-1" class="form-label">
+                                                            Teléfono de Contacto
+                                                        </label>
+                                                        <input type="tel" class="form-control" id="field-1" placeholder="Empresa" required pattern="[0-9]{10}"">
+                                                    </div>
+                                                </div>
+                                                <div class=" col-md-6">
+                                                        <div class="mb-3">
+                                                            <label for="field-2" class="form-label">
+                                                                RFC o TAX ID *
+                                                            </label>
+                                                            <input type="text" class="form-control" id="field-2" placeholder="RFC o TAX ID" required>
                                                         </div>
-                                                    </th>
-                                                </tr>
-                                                <tr>
-                                                    <th>Razón Social</th>
-                                                    <td> AGUA PURIFICADA POLARIS, S.A. DE C.V. </td>
-                                                    <th>Representante</th>
-                                                    <td> QUÍM. NICOLÁS SOTO VEGA </td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Contacto</th>
-                                                    <td> LOURDES RAMOS ANAYA </td>
-                                                    <th>Tipo Persona</th>
-                                                    <td> PERSONA MORAL </td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Teléfono Contacto</th>
-                                                    <td> 7222266132 </td>
-                                                    <th>Email</th>
-                                                    <td> <a href="mailto:nikolaymx@yahoo.com">nikolaymx@yahoo.com</a> </td>
-                                                </tr>
-                                                <tr>
-                                                    <th>RFC:</th>
-                                                    <td>APP060404JD2</td>
-                                                    <th>Sitio Web</th>
-                                                    <td>www.aguapolaris.com</td>
-                                                </tr>
-                                                <tr>
-                                                    <th class="text-center" colspan="4">Información Bancaria</th>
-                                                </tr>
-                                                <tr>
-                                                    <th>Beneficiario</th>
-                                                    <td>AGUA PURIFICADA POLARIS, S.A. DE C.V.</td>
-                                                    <th>Banco</th>
-                                                    <td>BANCO DEL BAJÍO, S.A. (BANBAJÍO)</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Plaza</th>
-                                                    <td>SANTÍN</td>
-                                                    <th>Sucursal</th>
-                                                    <td>PLAZA SANTÍN</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Número de Cuenta</th>
-                                                    <td>0148801240201</td>
-                                                    <th>Clabe Interbancaria</th>
-                                                    <td>030420900006589204</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                        <div class="d-flex justify-content-between">
-                                            <h3>Ordenes de Compra</h3>
-                                            <button type="button" class="btn btn-info waves-effect waves-light my-2">
-                                                <span class="btn-label"><i class="mdi mdi-printer"></i></span>
-                                                Re-enviar Cotización
-                                            </button>
-                                        </div>
-                                        <table class="table table-bordered table-hover table-striped">
-                                            <thead>
-                                                <tr>
-                                                    <th>Comprador</th>
-                                                    <th>RFC Comprador</th>
-                                                    <th>Importe</th>
-                                                    <th>Generador</th>
-                                                    <th>&nbsp;</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>DIME ESTUDIO DE DISEÑO, S.A. DE C.V.</td>
-                                                    <td>DED171206927</td>
-                                                    <td>$603.20</td>
-                                                    <td>ROBERTO CAMPIRAN</td>
-                                                    <td>
-                                                        <a class="btn btn-primary btn-sm" href="https://midime.com.mx/dime/proveedores/detalleordencompra/eyJpdiI6IlFDcUlGM3ZGVmpiMHlBNHVFXC8yMHZ3PT0iLCJ2YWx1ZSI6IittMFZKMnNQRjBjcTM2cG9GZlBhN2c9PSIsIm1hYyI6ImVkNzA1MTQ0MDZiNWNiNzE5NTA0ZjcwZjE3NzU1YjhkNWVjYjg1NmZjODhmOTNhYzI4NGEyNGUxNzg1MTk4MzMifQ=="><i class="fa fa-eye"></i> Detalles</a>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>DIME ESTUDIO DE DISEÑO, S.A. DE C.V.</td>
-                                                    <td>DED171206927</td>
-                                                    <td>$400.00</td>
-                                                    <td>FRANCISCO SORIANO</td>
-                                                    <td>
-                                                        <a class="btn btn-primary btn-sm" href="#"><i class="fa fa-eye"></i> Detalles</a>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>DIME ESTUDIO DE DISEÑO, S.A. DE C.V.</td>
-                                                    <td>DED171206927</td>
-                                                    <td>$795.00</td>
-                                                    <td>ROBERTO CAMPIRAN</td>
-                                                    <td>
-                                                        <a class="btn btn-primary btn-sm" href="#"><i class="fa fa-eye"></i> Detalles</a>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>DIME ESTUDIO DE DISEÑO, S.A. DE C.V.</td>
-                                                    <td>DED171206927</td>
-                                                    <td>$400.00</td>
-                                                    <td>FRANCISCO SORIANO</td>
-                                                    <td>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>DIME ESTUDIO DE DISEÑO, S.A. DE C.V.</td>
-                                                    <td>DED171206927</td>
-                                                    <td>$464.00</td>
-                                                    <td>FRANCISCO SORIANO</td>
-                                                    <td>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="mb-3">
+                                                            <label for="field-5" class="form-label">Correo</label>
+                                                            <input type="email" class="form-control" id="field-5" placeholder="email" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="mb-3">
+                                                            <label for="field-3" class="form-label">Dirección</label>
+                                                            <input type="text" class="form-control" id="field-3" placeholder="Dirección" required>
+                                                        </div>
+                                                    </div>
+                                                    <hr>
+                                                </div>
+                                                <div class="modal-header mb-4">
+                                                    <h4 class="modal-title">Información Bancaria</h4>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="mb-3">
+                                                            <label for="field-3" class="form-label">Beneficiario</label>
+                                                            <input type="text" class="form-control" placeholder="Beneficiario" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="mb-3">
+                                                            <label for="field-3" class="form-label">Banco</label>
+                                                            <input type="text" class="form-control" placeholder="Banco" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="mb-3">
+                                                            <label for="field-3" class="form-label">Plaza</label>
+                                                            <input type="text" class="form-control" placeholder="Plaza" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="mb-3">
+                                                            <label for="field-3" class="form-label">Sucursal</label>
+                                                            <input type="text" class="form-control" placeholder="Sucursal" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="mb-3">
+                                                            <label for="field-3" class="form-label">Número de
+                                                                Cuenta</label>
+                                                            <input type="text" class="form-control" placeholder="Número de Cuenta" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="mb-3">
+                                                            <label for="field-3" class="form-label">Clave
+                                                                Interbancaria</label>
+                                                            <input type="text" class="form-control" placeholder="Clave Interbancaria" required>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                            <!--! Button  -->
+                                            <div class="modal-footer">
+                                                <button type="submit" class="btn btn-primary waves-effect waves-light">Guardar</button>
+                                            </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
