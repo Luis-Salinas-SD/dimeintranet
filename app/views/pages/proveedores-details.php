@@ -36,7 +36,7 @@
                                                                 Información Personal
                                                             </div>
                                                             <div class="p-1 flex-shrink-2 bd-highlight">
-                                                                <a class="pull-right btn btn-primary" href="#">
+                                                                <a class="pull-right btn btn-primary" href="./proveedores-edit.php">
                                                                     <i class="fa fa-edit"></i>
                                                                     Editar
                                                                 </a>
@@ -93,10 +93,14 @@
                                         </table>
                                         <div class="d-flex justify-content-between">
                                             <h3>Ordenes de Compra</h3>
-                                            <button type="button" class="btn btn-info waves-effect waves-light my-2">
+                                            <!-- <button type="button" class="btn btn-info waves-effect waves-light my-2">
                                                 <span class="btn-label"><i class="mdi mdi-printer"></i></span>
-                                                Re-enviar Cotización
-                                            </button>
+                                                Generar Orden de Compra
+                                            </button> -->
+                                            <a href="./nuevaOrden.php" class="btn btn-info waves-effect waves-light my-2">
+                                                <span class="btn-label"><i class="mdi mdi-printer"></i></span>
+                                                Generar Orden de Compra
+                                            </a>
                                         </div>
                                         <table class="table table-bordered table-hover table-striped">
                                             <thead>
