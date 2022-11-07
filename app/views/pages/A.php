@@ -19,7 +19,15 @@
         <!-- ============================================================== -->
         <div class="content-page">
             <div class="content">
-                <?php include('../includes/actions/rfc.php') ?>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2>Template</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- ============================================================== -->

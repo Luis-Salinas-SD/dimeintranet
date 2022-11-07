@@ -119,7 +119,7 @@
                                                     <td>$603.20</td>
                                                     <td>ROBERTO CAMPIRAN</td>
                                                     <td>
-                                                        <a class="btn btn-primary btn-sm" href="https://midime.com.mx/dime/proveedores/detalleordencompra/eyJpdiI6IlFDcUlGM3ZGVmpiMHlBNHVFXC8yMHZ3PT0iLCJ2YWx1ZSI6IittMFZKMnNQRjBjcTM2cG9GZlBhN2c9PSIsIm1hYyI6ImVkNzA1MTQ0MDZiNWNiNzE5NTA0ZjcwZjE3NzU1YjhkNWVjYjg1NmZjODhmOTNhYzI4NGEyNGUxNzg1MTk4MzMifQ=="><i class="fa fa-eye"></i> Detalles</a>
+                                                        <a class="btn btn-primary btn-sm" href="./detallesCompra.php"><i class="fa fa-eye"></i> Detalles</a>
                                                     </td>
                                                 </tr>
                                                 <tr>
