@@ -71,16 +71,16 @@
                                                     <td>["ns1.dime.pro","ns2.dime.pro"]</td>
                                                     <td>8.8.8.8</td>
                                                     <td>
-                                                        <a data-bs-toggle="tooltip" title="Detalles" href="#" class="btn btn-success">
+                                                        <a data-bs-toggle="tooltip" title="Detalles" href="./server-details.php" class="btn btn-success">
                                                             <i class="fa fa-eye"></i>
                                                         </a>
-                                                        <a data-bs-toggle="tooltip" title="Editar" data-original-title="Detalles" href="#" class="btn btn-info">
+                                                        <a data-bs-toggle="tooltip" title="Editar" href="#" class="btn btn-info">
                                                             <i class="fa fa-edit"></i>
                                                         </a>
-                                                        <a data-bs-toggle="tooltip" title="Desactivar" data-original-title="Detalles" href="#" class="btn btn-danger">
+                                                        <a data-bs-toggle="tooltip" title="Desactivar" href="#" class="btn btn-danger">
                                                             <i class="fa fa-ban"></i>
                                                         </a>
-                                                        <a data-bs-toggle="tooltip" title="Correo" data-original-title="Detalles" href="#" class="btn btn-success">
+                                                        <a data-bs-toggle="tooltip" title="Correo" href="#" class="btn btn-success">
                                                             <i class="fa far fa-envelope-open"></i>
                                                         </a>
                                                     </td>
