@@ -44,14 +44,21 @@
                                             </tr>
                                             <tr>
                                                 <th>Nombre de Usuario</th>
-                                                <td><a href="#" class="btn btn-default" onclick="javascript:servidor.solicitar_contrasenia(); return false;"><i class="fa fa-eye"></i> Ver Datos del Servidor</a></td>
+                                                <td>
+                                                    <a href="#" class="btn btn-default">
+                                                        <i class=" fa fa-eye"></i> Ver Datos del Servidor
+                                                    </a>
+                                                    <button type="button" class="btn btn-info btn-xs" id="ajax-alert">
+                                                        Lanzar Sweet
+                                                    </button>
+                                                </td>
                                                 <th>Contraseña</th>
                                                 <td>
                                                     <input name="_token" type="hidden" value="">
                                                     <input type="hidden" value="" id="check_password">
                                                     <input type="hidden" value="" id="id_servicio">
-                                                    <a href="#" class="btn btn-default" onclick="javascript:servidor.solicitar_contrasenia(); return false;">
-                                                        <i class="fa fa-eye"></i> Ver Datos del Servidor
+                                                    <a href="#" class="btn btn-default"">
+                                                        <i class=" fa fa-eye"></i> Ver Datos del Servidor
                                                     </a>
                                                     <button type="button" class="btn btn-info btn-xs" id="ajax-alert">
                                                         Lanzar Sweet

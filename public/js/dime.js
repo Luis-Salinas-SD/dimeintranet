@@ -65,7 +65,37 @@ const agregarFila = () => {
 
 //* Sweet Alerts
 
-
+document.getElementById("ajax-alert").addEventListener("click", function () {
+    Swal.fire({
+        title: 'Ver Contraseña del Servidor',
+        text: 'Escribe tu Contraseña de Acceso',
+        input: 'email',
+        showCancelButton: true,
+        confirmButtonText: 'Ver',
+        showLoaderOnConfirm: true,
+        confirmButtonColor: "#10c469",
+        cancelButtonColor: "#f34e4e",
+        preConfirm: function (email) {
+            return new Promise(function (resolve, reject) {
+                setTimeout(function () {
+                    if (email === 'test@test.com') {
+                        reject('El amil ya exsiste')
+                    } else {
+                        resolve()
+                    }
+                }, 2000)
+            })
+        },
+        allowOutsideClick: false
+    }).then(function (email) {
+        Swal.fire({
+            icon: 'success',
+            title: 'Finalizado',
+            confirmButtonColor: "#4a4fea",
+            html: 'Enviado: ' + email
+        })
+    })
+});
 
 
 

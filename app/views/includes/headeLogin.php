@@ -17,4 +17,6 @@
 
     <!-- icons -->
     <link href="css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- SweetAlert -->
+    <link rel="stylesheet" href="../../libs/sweetalert2/sweetalert2.min.css">
 </head>
