@@ -23,7 +23,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <h1>Paquetes</h1>
-                        <a href="../pages/addpack.php"  class="btn btn-success waves-effect waves-light col-4  col-md-2 col-sm-4 m-2">
+                        <a href="../pages/addpack.php" class="btn btn-success waves-effect waves-light col-4  col-md-2 col-sm-4 m-2">
                             Añadir Paquete
                         </a>
                         <!-- Filtros search init-->
@@ -58,10 +58,12 @@
                                             <div class="plan-duration">Dominios Registrados: 55</div>
                                         </div>
                                         <div class="form-group text-center">
-                                        <button type="button" class="btn btn-success waves-effect waves-light"><i class="fe-eye"></i></button>
-                                        <button type="button" class="btn btn-info waves-effect waves-light"><i class="fe-edit"></i></button>
-                                        <button type="button" class="btn btn-danger waves-effect waves-light"><i class="fe-x-circle"></i></button>
-                                    </div>
+                                            <a type="button" class="btn btn-success waves-effect waves-light" href="./packs-details.php">
+                                                <i class="fe-eye"></i>
+                                            </a>
+                                            <button type="button" class="btn btn-info waves-effect waves-light"><i class="fe-edit"></i></button>
+                                            <button type="button" class="btn btn-danger waves-effect waves-light"><i class="fe-x-circle"></i></button>
+                                        </div>
                                     </div>
                                 </div>
                             </article>
@@ -75,10 +77,10 @@
                                             <div class="plan-duration">Dominios Registrados: 86</div>
                                         </div>
                                         <div class="form-group text-center">
-                                        <button type="button" class="btn btn-success waves-effect waves-light"><i class="fe-eye"></i></button>
-                                        <button type="button" class="btn btn-info waves-effect waves-light"><i class="fe-edit"></i></button>
-                                        <button type="button" class="btn btn-danger waves-effect waves-light"><i class="fe-x-circle"></i></button>
-                                    </div>
+                                            <button type="button" class="btn btn-success waves-effect waves-light"><i class="fe-eye"></i></button>
+                                            <button type="button" class="btn btn-info waves-effect waves-light"><i class="fe-edit"></i></button>
+                                            <button type="button" class="btn btn-danger waves-effect waves-light"><i class="fe-x-circle"></i></button>
+                                        </div>
                                     </div>
                                 </div>
                             </article>
@@ -92,10 +94,10 @@
                                             <div class="plan-duration">Dominios Registrados: 90</div>
                                         </div>
                                         <div class="form-group text-center">
-                                        <button type="button" class="btn btn-success waves-effect waves-light"><i class="fe-eye"></i></button>
-                                        <button type="button" class="btn btn-info waves-effect waves-light"><i class="fe-edit"></i></button>
-                                        <button type="button" class="btn btn-danger waves-effect waves-light"><i class="fe-x-circle"></i></button>
-                                    </div>
+                                            <button type="button" class="btn btn-success waves-effect waves-light"><i class="fe-eye"></i></button>
+                                            <button type="button" class="btn btn-info waves-effect waves-light"><i class="fe-edit"></i></button>
+                                            <button type="button" class="btn btn-danger waves-effect waves-light"><i class="fe-x-circle"></i></button>
+                                        </div>
                                     </div>
                                 </div>
                             </article>
@@ -109,10 +111,10 @@
                                             <div class="plan-duration">Dominios Registrados: 55</div>
                                         </div>
                                         <div class="form-group text-center">
-                                        <button type="button" class="btn btn-success waves-effect waves-light"><i class="fe-eye"></i></button>
-                                        <button type="button" class="btn btn-info waves-effect waves-light"><i class="fe-edit"></i></button>
-                                        <button type="button" class="btn btn-danger waves-effect waves-light"><i class="fe-x-circle"></i></button>
-                                    </div>
+                                            <button type="button" class="btn btn-success waves-effect waves-light"><i class="fe-eye"></i></button>
+                                            <button type="button" class="btn btn-info waves-effect waves-light"><i class="fe-edit"></i></button>
+                                            <button type="button" class="btn btn-danger waves-effect waves-light"><i class="fe-x-circle"></i></button>
+                                        </div>
                                     </div>
                                 </div>
                             </article>
@@ -126,10 +128,10 @@
                                             <div class="plan-duration">Dominios Registrados: 15</div>
                                         </div>
                                         <div class="form-group text-center">
-                                        <button type="button" class="btn btn-success waves-effect waves-light"><i class="fe-eye"></i></button>
-                                        <button type="button" class="btn btn-info waves-effect waves-light"><i class="fe-edit"></i></button>
-                                        <button type="button" class="btn btn-danger waves-effect waves-light"><i class="fe-x-circle"></i></button>
-                                    </div>
+                                            <button type="button" class="btn btn-success waves-effect waves-light"><i class="fe-eye"></i></button>
+                                            <button type="button" class="btn btn-info waves-effect waves-light"><i class="fe-edit"></i></button>
+                                            <button type="button" class="btn btn-danger waves-effect waves-light"><i class="fe-x-circle"></i></button>
+                                        </div>
                                     </div>
                                 </div>
                             </article>
@@ -143,15 +145,15 @@
                                             <div class="plan-duration">Dominios Registrados: 25</div>
                                         </div>
                                         <div class="form-group text-center">
-                                        <button type="button" class="btn btn-success waves-effect waves-light"><i class="fe-eye"></i></button>
-                                        <button type="button" class="btn btn-info waves-effect waves-light"><i class="fe-edit"></i></button>
-                                        <button type="button" class="btn btn-danger waves-effect waves-light"><i class="fe-x-circle"></i></button>
-                                    </div>
+                                            <button type="button" class="btn btn-success waves-effect waves-light"><i class="fe-eye"></i></button>
+                                            <button type="button" class="btn btn-info waves-effect waves-light"><i class="fe-edit"></i></button>
+                                            <button type="button" class="btn btn-danger waves-effect waves-light"><i class="fe-x-circle"></i></button>
+                                        </div>
                                     </div>
                                 </div>
                             </article>
-                             <!--tomo 7 -->
-                             <article class="pricing-column col-xl-3 col-md-6">
+                            <!--tomo 7 -->
+                            <article class="pricing-column col-xl-3 col-md-6">
                                 <div class="card">
                                     <div class="inner-box card-body">
                                         <div class="plan-header p-3 text-center">
@@ -160,10 +162,10 @@
                                             <div class="plan-duration">Dominios Registrados: 4</div>
                                         </div>
                                         <div class="form-group text-center">
-                                        <button type="button" class="btn btn-success waves-effect waves-light"><i class="fe-eye"></i></button>
-                                        <button type="button" class="btn btn-info waves-effect waves-light"><i class="fe-edit"></i></button>
-                                        <button type="button" class="btn btn-danger waves-effect waves-light"><i class="fe-x-circle"></i></button>
-                                    </div>
+                                            <button type="button" class="btn btn-success waves-effect waves-light"><i class="fe-eye"></i></button>
+                                            <button type="button" class="btn btn-info waves-effect waves-light"><i class="fe-edit"></i></button>
+                                            <button type="button" class="btn btn-danger waves-effect waves-light"><i class="fe-x-circle"></i></button>
+                                        </div>
                                     </div>
                                 </div>
                             </article>
@@ -177,10 +179,10 @@
                                             <div class="plan-duration">Dominios Registrados: 0</div>
                                         </div>
                                         <div class="form-group text-center">
-                                        <button type="button" class="btn btn-success waves-effect waves-light"><i class="fe-eye"></i></button>
-                                        <button type="button" class="btn btn-info waves-effect waves-light"><i class="fe-edit"></i></button>
-                                        <button type="button" class="btn btn-danger waves-effect waves-light"><i class="fe-x-circle"></i></button>
-                                    </div>
+                                            <button type="button" class="btn btn-success waves-effect waves-light"><i class="fe-eye"></i></button>
+                                            <button type="button" class="btn btn-info waves-effect waves-light"><i class="fe-edit"></i></button>
+                                            <button type="button" class="btn btn-danger waves-effect waves-light"><i class="fe-x-circle"></i></button>
+                                        </div>
                                     </div>
                                 </div>
                             </article>
@@ -194,10 +196,10 @@
                                             <div class="plan-duration">Dominios Registrados: 45</div>
                                         </div>
                                         <div class="form-group text-center">
-                                        <button type="button" class="btn btn-success waves-effect waves-light"><i class="fe-eye"></i></button>
-                                        <button type="button" class="btn btn-info waves-effect waves-light"><i class="fe-edit"></i></button>
-                                        <button type="button" class="btn btn-danger waves-effect waves-light"><i class="fe-x-circle"></i></button>
-                                    </div>
+                                            <button type="button" class="btn btn-success waves-effect waves-light"><i class="fe-eye"></i></button>
+                                            <button type="button" class="btn btn-info waves-effect waves-light"><i class="fe-edit"></i></button>
+                                            <button type="button" class="btn btn-danger waves-effect waves-light"><i class="fe-x-circle"></i></button>
+                                        </div>
                                     </div>
                                 </div>
                             </article>
@@ -211,10 +213,10 @@
                                             <div class="plan-duration">Dominios Registrados: 16</div>
                                         </div>
                                         <div class="form-group text-center">
-                                        <button type="button" class="btn btn-success waves-effect waves-light"><i class="fe-eye"></i></button>
-                                        <button type="button" class="btn btn-info waves-effect waves-light"><i class="fe-edit"></i></button>
-                                        <button type="button" class="btn btn-danger waves-effect waves-light"><i class="fe-x-circle"></i></button>
-                                    </div>
+                                            <button type="button" class="btn btn-success waves-effect waves-light"><i class="fe-eye"></i></button>
+                                            <button type="button" class="btn btn-info waves-effect waves-light"><i class="fe-edit"></i></button>
+                                            <button type="button" class="btn btn-danger waves-effect waves-light"><i class="fe-x-circle"></i></button>
+                                        </div>
                                     </div>
                                 </div>
                             </article>
@@ -228,10 +230,10 @@
                                             <div class="plan-duration">Dominios Registrados: 4</div>
                                         </div>
                                         <div class="form-group text-center">
-                                        <button type="button" class="btn btn-success waves-effect waves-light"><i class="fe-eye"></i></button>
-                                        <button type="button" class="btn btn-info waves-effect waves-light"><i class="fe-edit"></i></button>
-                                        <button type="button" class="btn btn-danger waves-effect waves-light"><i class="fe-x-circle"></i></button>
-                                    </div>
+                                            <button type="button" class="btn btn-success waves-effect waves-light"><i class="fe-eye"></i></button>
+                                            <button type="button" class="btn btn-info waves-effect waves-light"><i class="fe-edit"></i></button>
+                                            <button type="button" class="btn btn-danger waves-effect waves-light"><i class="fe-x-circle"></i></button>
+                                        </div>
                                     </div>
                                 </div>
                             </article>
@@ -245,10 +247,10 @@
                                             <div class="plan-duration">Dominios Registrados: 3</div>
                                         </div>
                                         <div class="form-group text-center">
-                                        <button type="button" class="btn btn-success waves-effect waves-light"><i class="fe-eye"></i></button>
-                                        <button type="button" class="btn btn-info waves-effect waves-light"><i class="fe-edit"></i></button>
-                                        <button type="button" class="btn btn-danger waves-effect waves-light"><i class="fe-x-circle"></i></button>
-                                    </div>
+                                            <button type="button" class="btn btn-success waves-effect waves-light"><i class="fe-eye"></i></button>
+                                            <button type="button" class="btn btn-info waves-effect waves-light"><i class="fe-edit"></i></button>
+                                            <button type="button" class="btn btn-danger waves-effect waves-light"><i class="fe-x-circle"></i></button>
+                                        </div>
                                     </div>
                                 </div>
                             </article>
