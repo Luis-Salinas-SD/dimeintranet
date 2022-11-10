@@ -90,8 +90,8 @@
                                                                     <div class="user-desc overflow-hidden">
                                                                         <h5 class="name mt-0 mb-1">Hosting</h5>
                                                                         <span class="desc text-muted font-12 text-truncate d-block">Precio: 1,160.00/span>
-                                                                        <span class="desc text-muted font-12 text-truncate d-block">Precio de Renovación: 1,000.00</span>
-                                                                        <span class="desc text-primary font-12 text-truncate d-block">Hace 2 años</span>
+                                                                            <span class="desc text-muted font-12 text-truncate d-block">Precio de Renovación: 1,000.00</span>
+                                                                            <span class="desc text-primary font-12 text-truncate d-block">Hace 2 años</span>
                                                                     </div>
                                                                 </a>
                                                             </li>
@@ -102,10 +102,10 @@
                                                                         <i class="mdi mdi-circle text-success"></i>
                                                                     </div>
                                                                     <div class="user-desc overflow-hidden">
-                                                                    <h5 class="name mt-0 mb-1">Hosting</h5>
+                                                                        <h5 class="name mt-0 mb-1">Hosting</h5>
                                                                         <span class="desc text-muted font-12 text-truncate d-block">Precio: 1,160.00/span>
-                                                                        <span class="desc text-muted font-12 text-truncate d-block">Precio de Renovación: 1,000.00</span>
-                                                                        <span class="desc text-primary font-12 text-truncate d-block">Hace 2 años</span>
+                                                                            <span class="desc text-muted font-12 text-truncate d-block">Precio de Renovación: 1,000.00</span>
+                                                                            <span class="desc text-primary font-12 text-truncate d-block">Hace 2 años</span>
                                                                     </div>
                                                                 </a>
                                                             </li>
@@ -128,10 +128,10 @@
                                                                         <i class="mdi mdi-circle text-muted"></i>
                                                                     </div>
                                                                     <div class="user-desc overflow-hidden">
-                                                                    <h5 class="name mt-0 mb-1">Hosting</h5>
+                                                                        <h5 class="name mt-0 mb-1">Hosting</h5>
                                                                         <span class="desc text-muted font-12 text-truncate d-block">Precio: 1,160.00/span>
-                                                                        <span class="desc text-muted font-12 text-truncate d-block">Precio de Renovación: 1,000.00</span>
-                                                                        <span class="desc text-primary font-12 text-truncate d-block">Hace 2 años</span>
+                                                                            <span class="desc text-muted font-12 text-truncate d-block">Precio de Renovación: 1,000.00</span>
+                                                                            <span class="desc text-primary font-12 text-truncate d-block">Hace 2 años</span>
                                                                     </div>
                                                                 </a>
                                                             </li>
@@ -142,10 +142,10 @@
                                                                         <i class="mdi mdi-circle text-danger"></i>
                                                                     </div>
                                                                     <div class="user-desc overflow-hidden">
-                                                                    <h5 class="name mt-0 mb-1">Hosting</h5>
+                                                                        <h5 class="name mt-0 mb-1">Hosting</h5>
                                                                         <span class="desc text-muted font-12 text-truncate d-block">Precio: 1,160.00/span>
-                                                                        <span class="desc text-muted font-12 text-truncate d-block">Precio de Renovación: 1,000.00</span>
-                                                                        <span class="desc text-primary font-12 text-truncate d-block">Hace 2 años</span>
+                                                                            <span class="desc text-muted font-12 text-truncate d-block">Precio de Renovación: 1,000.00</span>
+                                                                            <span class="desc text-primary font-12 text-truncate d-block">Hace 2 años</span>
                                                                     </div>
                                                                 </a>
                                                             </li>

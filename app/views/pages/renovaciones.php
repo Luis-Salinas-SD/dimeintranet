@@ -4,8 +4,7 @@
 
 <!-- body start -->
 
-<body class="loading"
-    data-layout='{"mode": "light", "width": "fluid", "menuPosition": "fixed", "sidebar": { "color": "light", "size": "default", "showuser": true}, "topbar": {"color": "light"}, "showRightSidebarOnPageLoad": true}'>
+<body class="loading" data-layout='{"mode": "light", "width": "fluid", "menuPosition": "fixed", "sidebar": { "color": "light", "size": "default", "showuser": true}, "topbar": {"color": "light"}, "showRightSidebarOnPageLoad": true}'>
 
     <!-- Begin page -->
     <div id="wrapper">
@@ -52,20 +51,43 @@
                                                     <th>Fecha de Vencimiento</th>
                                                     <th>Estatus</th>
                                                     <th>Forma Pago</th>
-                                                    <th>Estatus Factura	</th>
+                                                    <th>Estatus Factura </th>
                                                     <th>Factura</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <tr class="text-center">    
+                                                <tr class="text-center">
                                                     <th scope="row">DOPDOP34032424</th>
-                                                    <td>Web Elite (buroarquitectura.mx)</td>
+                                                    <td>Web</td>
                                                     <td>$4,800.00</td>
                                                     <td>20 DE AGOSTO DE 2022</td>
                                                     <td>Pagado</td>
-                                                    <td>Tarjeta de Crédito / Débito	</td>
+                                                    <td>Tarjeta de Crédito / Débito </td>
                                                     <td>Activa</td>
                                                     <td><button type="button" class="btn btn-primary rounded-pill waves-effect waves-light">Generar Factura</button></td>
+                                                </tr>
+                                                <tr class="text-center">
+                                                    <th scope="row">DOPDOP34032424</th>
+                                                    <td>Web</td>
+                                                    <td>$4,800.00</td>
+                                                    <td>20 DE AGOSTO DE 2022</td>
+                                                    <td>Pagado</td>
+                                                    <td>Tarjeta de Crédito / Débito </td>
+                                                    <td>Activa</td>
+                                                    <td>
+                                                        <button type="button" class="btn btn-success rounded-pill waves-effect waves-light">
+                                                            <i class="mdi mdi-file-pdf"></i>
+                                                            <span>PDF</span>
+                                                        </button>
+                                                        <button type="button" class="btn btn-success rounded-pill waves-effect waves-light">
+                                                            <i class="mdi mdi-xml"></i>
+                                                            <span>XML</span>
+                                                        </button>
+                                                        <button type="button" class="btn btn-danger rounded-pill waves-effect waves-light">
+                                                            <i class="mdi mdi-cancel    "></i>
+                                                            <span>Cancelar</span>
+                                                        </button>
+                                                    </td>
                                                 </tr>
                                             </tbody>
                                         </table>

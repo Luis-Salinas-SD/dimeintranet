@@ -79,7 +79,7 @@ document.getElementById("ajax-alert").addEventListener("click", function () {
             return new Promise(function (resolve, reject) {
                 setTimeout(function () {
                     if (email === 'test@test.com') {
-                        reject('El amil ya exsiste')
+                        reject('El mail ya exsiste')
                     } else {
                         resolve()
                     }
