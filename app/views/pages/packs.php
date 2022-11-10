@@ -61,7 +61,8 @@
                                             <a type="button" class="btn btn-success waves-effect waves-light" href="./packs-details.php">
                                                 <i class="fe-eye"></i>
                                             </a>
-                                            <button type="button" class="btn btn-info waves-effect waves-light"><i class="fe-edit"></i></button>
+                                            <a type="button" class="btn btn-info waves-effect waves-light" href="./packs-edit.php">
+                                                <i class="fe-edit"></i></a>
                                             <button type="button" class="btn btn-danger waves-effect waves-light"><i class="fe-x-circle"></i></button>
                                         </div>
                                     </div>
