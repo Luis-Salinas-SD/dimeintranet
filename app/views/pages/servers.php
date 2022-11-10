@@ -74,7 +74,7 @@
                                                         <a data-bs-toggle="tooltip" title="Detalles" href="./server-details.php" class="btn btn-success">
                                                             <i class="fa fa-eye"></i>
                                                         </a>
-                                                        <a data-bs-toggle="tooltip" title="Editar" href="#" class="btn btn-info">
+                                                        <a data-bs-toggle="tooltip" title="Editar" href="./server-edit.php" class="btn btn-info">
                                                             <i class="fa fa-edit"></i>
                                                         </a>
                                                         <a data-bs-toggle="tooltip" title="Desactivar" href="#" class="btn btn-danger">
