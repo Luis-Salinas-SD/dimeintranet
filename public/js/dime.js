@@ -63,40 +63,66 @@ const agregarFila = () => {
     <td>1x</td>`
 }
 
+
 //* Sweet Alerts
+//! Script - server-details.php
+const alerta = document.getElementById("ajax-alert")
 
-document.getElementById("ajax-alert").addEventListener("click", function () {
-    Swal.fire({
-        title: 'Ver Contraseña del Servidor',
-        text: 'Escribe tu Contraseña de Acceso',
-        input: 'email',
-        showCancelButton: true,
-        confirmButtonText: 'Ver',
-        showLoaderOnConfirm: true,
-        confirmButtonColor: "#10c469",
-        cancelButtonColor: "#f34e4e",
-        preConfirm: function (email) {
-            return new Promise(function (resolve, reject) {
-                setTimeout(function () {
-                    if (email === 'test@test.com') {
-                        reject('El mail ya exsiste')
-                    } else {
-                        resolve()
-                    }
-                }, 2000)
-            })
-        },
-        allowOutsideClick: false
-    }).then(function (email) {
+if (alerta) {
+    alerta.addEventListener("click", function () {
+
         Swal.fire({
-            icon: 'success',
-            title: 'Finalizado',
-            confirmButtonColor: "#4a4fea",
-            html: 'Enviado: ' + email
+            title: 'Ver Contraseña del Servidor',
+            text: 'Escribe tu Contraseña de Acceso',
+            input: 'email',
+            showCancelButton: true,
+            confirmButtonText: 'Ver',
+            showLoaderOnConfirm: true,
+            confirmButtonColor: "#10c469",
+            cancelButtonColor: "#f34e4e",
+            preConfirm: function (email) {
+                return new Promise(function (resolve, reject) {
+                    setTimeout(function () {
+                        if (email === 'test@test.com') {
+                            reject('El mail ya exsiste')
+                        } else {
+                            resolve()
+                        }
+                    }, 2000)
+                })
+            },
+            allowOutsideClick: false
+        }).then(function (email) {
+            Swal.fire({
+                icon: 'success',
+                title: 'Finalizado',
+                confirmButtonColor: "#4a4fea",
+                html: 'Enviado: ' + email
+            })
         })
-    })
-});
+    });
+}
 
+//! Script - dominio-details.php
 
+//! Script - server-details.php
+const msm = document.getElementById("check-domain")
+if (msm) {
+    msm.addEventListener("click", function () {
+        Swal.fire({
+            icon: 'error',
+            title: 'Test Connection',
+            text: '¡ Datos Incorrectos ! ',
+        })
+    });
+}
 
+//! Script - server-details.php
+
+const btnShow = document.getElementById('switch');
+const mesg = document.getElementById('mesg')
+
+btnShow.addEventListener(('click'), () => {
+    mesg.classList.toggle('show')
+})
 

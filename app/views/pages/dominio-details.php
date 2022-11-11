@@ -24,6 +24,162 @@
                     <div class="row">
                         <h1>Dominio <a href="http://google.com">Google</a></h1>
 
+                        <!-- Modales -->
+
+                        <!-- Modal Contraseña -->
+                        <div id="ver-framework" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="fullWidthModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-full-width">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title" id="fullWidthModalLabel">Ver Credenciales</h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="col-4 m-auto">
+                                            <label for="">Ingresar Contraseña</label> <br>
+                                            <input type="password" name="" id="" placeholder="Password" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer m-auto">
+                                        <button type="button" class="btn btn-success">
+                                            <i class="mdi mdi-form-textbox-password"></i>
+                                            Validar Contraseña
+                                        </button>
+                                    </div>
+                                </div><!-- /.modal-content -->
+                            </div><!-- /.modal-dialog -->
+                        </div><!-- /.modal -->
+                        <!-- Modal AddFramework -->
+                        <div id="add-framework" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="fullWidthModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-full-width">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title" id="fullWidthModalLabel">Agregar Framework</h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body d-flex justify-content-around">
+                                        <div class="col-3">
+                                            <label for="">Nombre de Usuario</label> <br>
+                                            <input type="text" name="" placeholder="Usuario" class="form-control">
+                                        </div>
+                                        <div class="col-3">
+                                            <label for="">Contraseña</label> <br>
+                                            <input type="password" name="" placeholder="Password" class="form-control">
+                                        </div>
+                                        <div class="col-3">
+                                            <label for="">Descripción</label> <br>
+                                            <input type="text" name="" placeholder="Descripción" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer m-auto">
+                                        <button type="button" class="btn btn-success">
+                                            <i class="mdi mdi-content-save"></i>
+                                            Guardar Información
+                                        </button>
+                                    </div>
+                                </div><!-- /.modal-content -->
+                            </div><!-- /.modal-dialog -->
+                        </div><!-- /.modal -->
+                        <!-- Modal AddFramework -->
+                        <div id="add-database" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="fullWidthModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-full-width">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title" id="fullWidthModalLabel">Agregar Base de Datos</h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body d-flex justify-content-around">
+                                        <div class="col-3 px-2">
+                                            <label for="">Usuario</label> <br>
+                                            <input type="text" name="" placeholder="Usuario" class="form-control">
+                                        </div>
+                                        <div class="col-3 px-2">
+                                            <label for="">Contraseña</label> <br>
+                                            <input type="password" name="" placeholder="Password" class="form-control">
+                                        </div>
+                                        <div class="col-3 px-2">
+                                            <label for="">Descripción</label> <br>
+                                            <input type="text" name="" placeholder="Descripción" class="form-control">
+                                        </div>
+                                        <div class="col-3 px-2">
+                                            <label for="">Base de Datos</label> <br>
+                                            <input type="text" name="" placeholder="Base de Datos" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer m-auto">
+                                        <button type="button" class="btn btn-success">
+                                            <i class="mdi mdi-content-save"></i>
+                                            Guardar Información
+                                        </button>
+                                    </div>
+                                </div><!-- /.modal-content -->
+                            </div><!-- /.modal-dialog -->
+                        </div><!-- /.modal -->
+                        <!-- Modales fin -->
+                        <!-- Modal Multiple -->
+                        <!-- Modal -->
+                        <div id="ver-credentials" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="fullWidthModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-full-width">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title" id="fullWidthModalLabel">Ver Credenciales</h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="col-4 m-auto">
+                                            <label for="">Ingresar Contraseña</label> <br>
+                                            <input type="password" name="" id="" placeholder="Password" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary" data-bs-target="#multiple-two" data-bs-toggle="modal" data-bs-dismiss="modal">
+                                            Aceptar
+                                        </button>
+                                    </div>
+                                </div><!-- /.modal-content -->
+                            </div><!-- /.modal-dialog -->
+                        </div><!-- /.modal -->
+
+                        <!-- Modal -->
+                        <div id="multiple-two" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="multiple-twoModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-full-width">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title" id="multiple-twoModalLabel">Ver Credenciales</h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="col-12">
+                                            <table class="table table-bordered table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <td>Nombre de Usuario</td>
+                                                        <td>Contraseña</td>
+                                                        <td>Descripción</td>
+                                                    </tr>
+                                                </thead>
+
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <a data-type="text" data-pk="2" data-url="" data-title="Nombre de Usuario" class="editable editable-click">Site</a>
+                                                        </td>
+                                                        <td>
+                                                            <a data-type="password" data-pk="3" data-url="" data-title="Contraseña" class="editable editable-click">123456</a>
+                                                        </td>
+                                                        <td>
+                                                            <a data-placement="right" data-type="textarea" data-pk="4" data-url="" data-title="Descripción" class="editable editable-pre-wrapped editable-click">Panel</a>
+                                                        </td>
+                                                    </tr>
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div><!-- /.modal-content -->
+                            </div><!-- /.modal-dialog -->
+                        </div><!-- /.modal -->
+
                         <!-- Contenido-->
                         <div class="col-lg-12">
                             <div class="card">
@@ -137,7 +293,7 @@
                                         <table class="table table-striped table-bordered table-hover table-condensed">
                                             <thead>
                                                 <tr>
-                                                    <th class="text-center" colspan="4">Correos Electrónicos Disponibles 11/8</th>
+                                                    <th class="text-center" colspan="4">Correos Electrónicos Disponibles 2/8</th>
                                                 </tr>
                                                 <tr>
                                                     <th>Correo Electrónico</th>
@@ -180,41 +336,100 @@
                                             </tbody>
                                         </table>
                                     </div>
-                                    <section class="d-flex justify-content-between">
-                                        <div class="col-md-3 m-2">
-                                            <div class="card">
-                                                <h5 class="card-header">Featured</h5>
-                                                <div class="card-body">
-                                                    <h5 class="card-title">Special title treatment</h5>
-                                                    <p class="card-text">With supporting text below as a natural lead-in to
-                                                        additional content.</p>
-                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <div class="table-responsive">
+                                        <section class="d-flex justify-content-between flex-wrap">
+                                            <div class="col 12 col-md-3 m-1">
+                                                <div class="card">
+                                                    <h5 class="card-header">Framework</h5>
+                                                    <div class="card-body">
+                                                        <p class="card-text">
+                                                            Hay 2 credenciales registradas.
+                                                        </p>
+                                                        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#ver-framework">
+                                                            <i class="mdi mdi-eye"></i>
+                                                            Ver
+                                                        </button>
+                                                        <button href="#" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#add-framework">
+                                                            <i class="mdi mdi-plus"></i>
+                                                            Agregar item
+                                                        </button>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="col-md-3 m-2">
-                                            <div class="card">
-                                                <h5 class="card-header">Featured</h5>
-                                                <div class="card-body">
-                                                    <h5 class="card-title">Special title treatment</h5>
-                                                    <p class="card-text">With supporting text below as a natural lead-in to
-                                                        additional content.</p>
-                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            <div class=" col-12 col-md-3 m-1">
+                                                <div class="card">
+                                                    <h5 class="card-header">Base de Datos</h5>
+                                                    <div class="card-body">
+                                                        <p class="card-text">
+                                                            Aun no hay credenciales registradas
+                                                        </p>
+                                                        <button href="#" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#add-database">
+                                                            <i class="mdi mdi-plus"></i>
+                                                            Agregar item
+                                                        </button>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="col-md-3 m-2">
-                                            <div class="card">
-                                                <h5 class="card-header">Featured</h5>
-                                                <div class="card-body">
-                                                    <h5 class="card-title">Special title treatment</h5>
-                                                    <p class="card-text">With supporting text below as a natural lead-in to
-                                                        additional content.</p>
-                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            <div class="col-12 col-md-3 m-1">
+                                                <div class="card">
+                                                    <h5 class="card-header">CPanel</h5>
+                                                    <div class="card-body">
+                                                        <p class="card-text">
+                                                            Hay 1 credenciales registradas
+                                                        </p>
+                                                        <button class="btn btn-success">
+                                                            <i class="mdi mdi-eye"></i>
+                                                            Ver
+                                                        </button>
+                                                        <a href="#" class="btn btn-info" id="check-domain">
+                                                            <i class="mdi mdi-key"></i>
+                                                            Test Conección
+                                                        </a>
+                                                        <a class="btn btn-info" data-bs-toggle="modal" data-bs-target="#ver-credentials">
+                                                            <i class="mdi mdi-key"></i>
+                                                            Login
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </section>
+                                            <div class="col-12 col-md-3 m-1">
+                                                <div class="card">
+                                                    <h5 class="card-header">Modificaciones</h5>
+                                                    <div class="card-body">
+                                                        <div>
+                                                            <p class="card-text">
+                                                                Minutos Invertidos <b>1800/3600</b>
+                                                            </p>
+                                                            <div class="progress my-3">
+                                                                <div class="progress-bar bg-success" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
+                                                            </div>
+                                                            <a class="btn btn-info" id="switch">
+                                                                <i class="mdi mdi-plus"></i>
+                                                                Agregar item
+                                                            </a>
+                                                        </div>
+                                                        <div id="mesg" class="hide col-10">
+                                                            <div class="m-auto">
+                                                                <form method="POST" action="" accept-charset="UTF-8" class="text-center" autocomplete="off">
+                                                                    <input name="_token" type="hidden">
+                                                                    <div class="form-group">
+                                                                        <label for="minutesworked">Minutos Trabajados:</label>
+                                                                        <input type="hidden" name="idSolicitud" value="" required="required">
+                                                                        <input type="number" name="minutesworked" placeholder="Minutos Trabajados" class="form-control" id="minutesworked" required="required">
+                                                                    </div>
+                                                                    <div class="mt-2">
+                                                                        <button type="submit" class="btn btn-success">Guardar</button>
+                                                                        <button type="button" class="btn btn-danger cancel-time">Cancelar</button>
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+
+                                    </div>
 
                                 </div>
                             </div>
