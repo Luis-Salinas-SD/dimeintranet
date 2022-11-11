@@ -80,7 +80,8 @@
                                                     <td>Pendiente</td>
                                                     <td>
                                                         <label style="background: orange; color: white; padding: 5px;">
-                                                            <i class="mdi mdi-alert"></i>Web Standard Por Vencer en 10 día(s)
+                                                            <i class="mdi mdi-alert"></i>
+                                                            Web Standard Por Vencer en 10 día(s)
                                                         </label>
                                                     </td>
                                                     <td>

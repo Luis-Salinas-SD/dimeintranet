@@ -142,7 +142,9 @@
                                                 <tr>
                                                     <th>Correo Electrónico</th>
                                                     <th>
-                                                        <a href="https://midime.com.mx/dime/getcuentasemail/eyJpdiI6IkI5NFlub1wvRFZQSU9BSEtCY3lkN1RnPT0iLCJ2YWx1ZSI6InRqRFY1RGtyS1Z6bUxEUWxNMVBMZlE9PSIsIm1hYyI6ImIzZDljM2RkYTAzMTRjN2QwZTQyMDc0NTQwNzM0NjRhYjg4MzRhZTQyZGQzZGYxYmMxNGIyYmY3ZWRlZDYyNDgifQ==" onclick="javascript:servidor.getCuentasEmail(this); return false;" data-toggle="tooltip" data-placement="top" data-original-title="Ver Cuentas de Correo" class="btn btn-sm btn-primary"><i class="fa fa-eye"></i></a>
+                                                        <a href="" data-toggle="tooltip" data-placement="top" data-original-title="Ver Cuentas de Correo" class="btn btn-sm btn-primary">
+                                                            <i class="fa fa-eye"></i>
+                                                        </a>
                                                     </th>
                                                 </tr>
                                             </thead>
@@ -150,22 +152,69 @@
                                                 <tr>
                                                     <td>onder.cerda@aeroclass.com.mx</td>
                                                     <td>
-                                                        <a onclick="javascript:servidor.changepassword(this); return false;" data-email="onder.cerda@aeroclass.com.mx" href="https://midime.com.mx/dime/cambioscuenta/eyJpdiI6InJpaG9YZWtOQmlmbFJFbG1IM2hXV3c9PSIsInZhbHVlIjoiM2U0YmFxMEtxWU5YT01uNkQ4dlJKZz09IiwibWFjIjoiOGZiZmIzMDlhZTQxYmY3MDk3NjViNTJiYTQzZDBkZmFmZmU5MjM5YzU0ZjczZjg5ZTEwOTQ5MmVhYzNmNTVkMSJ9" data-toggle="tooltip" data-placement="top" data-original-title="Cambiar Contraseña" data-element="3" class="btn btn-info btn-sm"><i class="fa fa-key"></i></a>
-                                                        <a href="https://midime.com.mx/dime/cambioscuenta/eyJpdiI6InJpaG9YZWtOQmlmbFJFbG1IM2hXV3c9PSIsInZhbHVlIjoiM2U0YmFxMEtxWU5YT01uNkQ4dlJKZz09IiwibWFjIjoiOGZiZmIzMDlhZTQxYmY3MDk3NjViNTJiYTQzZDBkZmFmZmU5MjM5YzU0ZjczZjg5ZTEwOTQ5MmVhYzNmNTVkMSJ9" onclick="javscript:servidor.suspend_delete(this); return false;" data-toggle="tooltip" data-placement="top" data-original-title="Suspender Cuenta" data-element="1" class="btn btn-warning btn-sm"><i class="fa fa-ban"></i></a>
-                                                        <a href="https://midime.com.mx/dime/cambioscuenta/eyJpdiI6InJpaG9YZWtOQmlmbFJFbG1IM2hXV3c9PSIsInZhbHVlIjoiM2U0YmFxMEtxWU5YT01uNkQ4dlJKZz09IiwibWFjIjoiOGZiZmIzMDlhZTQxYmY3MDk3NjViNTJiYTQzZDBkZmFmZmU5MjM5YzU0ZjczZjg5ZTEwOTQ5MmVhYzNmNTVkMSJ9" onclick="javscript:servidor.suspend_delete(this); return false;" data-toggle="tooltip" data-placement="top" data-original-title="Eliminar Cuenta" data-element="2" class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></a>
+                                                        <a data-email="onder.cerda@aeroclass.com.mx" href="" data-toggle="tooltip" data-placement="top" data-original-title="Cambiar Contraseña" data-element="3" class="btn btn-info btn-sm">
+                                                            <i class="fa fa-key"></i>
+                                                        </a>
+                                                        <a href="" data-toggle="tooltip" data-placement="top" data-original-title="Suspender Cuenta" data-element="1" class="btn btn-warning btn-sm">
+                                                            <i class="fa fa-ban"></i>
+                                                        </a>
+                                                        <a href="" data-toggle="tooltip" data-placement="top" data-original-title="Eliminar Cuenta" data-element="2" class="btn btn-danger btn-sm">
+                                                            <i class="mdi mdi-delete"></i>
+                                                        </a>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>gmacias@aeroclass.com.mx</td>
                                                     <td>
-                                                        <a onclick="javascript:servidor.changepassword(this); return false;" data-email="gmacias@aeroclass.com.mx" href="https://midime.com.mx/dime/cambioscuenta/eyJpdiI6IlVFcVJqdEpuS0FXZGZ3ZnQzb1NpYnc9PSIsInZhbHVlIjoib0ZZcE5IZjY0R0hlZEwyXC9tdWNiQ3c9PSIsIm1hYyI6IjA3ZjdkZjZhMzQxNDE1ZTI5NTVkZDc4YTU5YzU3Y2FiNTE1ZmIyNTQ4NTE2NzI4MmM5MDQ3Mjg5NzgzZTE0M2MifQ==" data-toggle="tooltip" data-placement="top" data-original-title="Cambiar Contraseña" data-element="3" class="btn btn-info btn-sm"><i class="fa fa-key"></i></a>
-                                                        <a href="https://midime.com.mx/dime/cambioscuenta/eyJpdiI6IlVFcVJqdEpuS0FXZGZ3ZnQzb1NpYnc9PSIsInZhbHVlIjoib0ZZcE5IZjY0R0hlZEwyXC9tdWNiQ3c9PSIsIm1hYyI6IjA3ZjdkZjZhMzQxNDE1ZTI5NTVkZDc4YTU5YzU3Y2FiNTE1ZmIyNTQ4NTE2NzI4MmM5MDQ3Mjg5NzgzZTE0M2MifQ==" onclick="javscript:servidor.suspend_delete(this); return false;" data-toggle="tooltip" data-placement="top" data-original-title="Suspender Cuenta" data-element="1" class="btn btn-warning btn-sm"><i class="fa fa-ban"></i></a>
-                                                        <a href="https://midime.com.mx/dime/cambioscuenta/eyJpdiI6IlVFcVJqdEpuS0FXZGZ3ZnQzb1NpYnc9PSIsInZhbHVlIjoib0ZZcE5IZjY0R0hlZEwyXC9tdWNiQ3c9PSIsIm1hYyI6IjA3ZjdkZjZhMzQxNDE1ZTI5NTVkZDc4YTU5YzU3Y2FiNTE1ZmIyNTQ4NTE2NzI4MmM5MDQ3Mjg5NzgzZTE0M2MifQ==" onclick="javscript:servidor.suspend_delete(this); return false;" data-toggle="tooltip" data-placement="top" data-original-title="Eliminar Cuenta" data-element="2" class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></a>
+                                                        <a data-email="gmacias@aeroclass.com.mx" href="" data-toggle="tooltip" data-placement="top" data-original-title="Cambiar Contraseña" data-element="3" class="btn btn-info btn-sm">
+                                                            <i class="fa fa-key"></i>
+                                                        </a>
+                                                        <a href="" data-toggle="tooltip" data-placement="top" data-original-title="Suspender Cuenta" data-element="1" class="btn btn-warning btn-sm">
+                                                            <i class="fa fa-ban"></i>
+                                                        </a>
+                                                        <a href="" data-toggle="tooltip" data-placement="top" data-original-title="Eliminar Cuenta" data-element="2" class="btn btn-danger btn-sm">
+                                                            <i class="mdi mdi-delete"></i>
+                                                        </a>
                                                     </td>
                                                 </tr>
                                             </tbody>
                                         </table>
                                     </div>
+                                    <section class="d-flex justify-content-between">
+                                        <div class="col-md-3 m-2">
+                                            <div class="card">
+                                                <h5 class="card-header">Featured</h5>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Special title treatment</h5>
+                                                    <p class="card-text">With supporting text below as a natural lead-in to
+                                                        additional content.</p>
+                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 m-2">
+                                            <div class="card">
+                                                <h5 class="card-header">Featured</h5>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Special title treatment</h5>
+                                                    <p class="card-text">With supporting text below as a natural lead-in to
+                                                        additional content.</p>
+                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 m-2">
+                                            <div class="card">
+                                                <h5 class="card-header">Featured</h5>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Special title treatment</h5>
+                                                    <p class="card-text">With supporting text below as a natural lead-in to
+                                                        additional content.</p>
+                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
 
                                 </div>
                             </div>
