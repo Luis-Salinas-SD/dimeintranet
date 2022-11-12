@@ -298,6 +298,9 @@
                                                 <tr>
                                                     <th>Correo Electrónico</th>
                                                     <th>
+                                                        <a href="" data-toggle="tooltip" data-placement="top" data-original-title="Ver Cuentas de Correo" class="btn btn-sm btn-primary" id="btnPwd">
+                                                            <i class="mdi mdi-email-plus-outline"></i>
+                                                        </a>
                                                         <a href="" data-toggle="tooltip" data-placement="top" data-original-title="Ver Cuentas de Correo" class="btn btn-sm btn-primary">
                                                             <i class="fa fa-eye"></i>
                                                         </a>
@@ -336,6 +339,48 @@
                                             </tbody>
                                         </table>
                                     </div>
+                                    <section id="passwordEmail" class="hide col-12">
+                                        <div class="">
+                                            <div class="my-4 p-4 bg-light rounded">
+                                                <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 text-center">
+                                                    <b>Generar Nueva Cuenta de Correo Electrónico</b>
+                                                    <b class="" style="display: none;">Cambiar Contraseña de la cuenta: <cuenta></cuenta></b>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4 px-2">
+                                                        <label>Cuenta:</label>
+                                                        <div class="input-group">
+                                                            <input type="text" class="form-control" id="cuenta" placeholder="Cuenta">
+                                                            <div class="btn btn-secondary">@dominio.com.mx</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4 px-2">
+                                                        <label>Contraseña:</label>
+                                                        <div class="input-group">
+                                                            <input type="password" class="form-control" id="pwd" placeholder="Password">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4 pt-3">
+                                                        <button type="submit" class="btn btn-info">
+                                                            <i class="mdi mdi-form-textbox-password"></i>
+                                                            Generar Contraseña
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 text-center">
+                                                    <div class="form-group">
+                                                        <br>
+                                                        <button class="btn btn-success">
+                                                            <i class="fa fa-save"></i> Generar Cuenta
+                                                        </button>
+                                                        <button class="btn btn-danger">
+                                                            <i class="fa fa-ban"></i> Cancelar
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
                                     <div class="table-responsive">
                                         <section class="d-flex justify-content-between flex-wrap">
                                             <div class="col 12 col-md-3 m-1">
