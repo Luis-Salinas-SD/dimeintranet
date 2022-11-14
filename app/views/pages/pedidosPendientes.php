@@ -21,7 +21,7 @@
             <div class="content">
                 <div class="container-fluid">
                     <div class="row">
-                        <h1> Clientes</h1>
+                        <h1> Pedidos Pendientes</h1>
                         <button type="button" class="btn btn-success waves-effect waves-light col-4  col-md-2 col-sm-4 m-2" data-bs-toggle="modal" data-bs-target="#con-close-modal">Añadir cliente
                         </button>
                         <!-- Modal Formulario init -->
@@ -29,7 +29,7 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h4 class="modal-title">Añadir un nuevo cliente</h4>
+                                        <h4 class="modal-title">Nuevo Pedido</h4>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <form>

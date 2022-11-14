@@ -454,7 +454,7 @@
                                                             </a>
                                                         </div>
                                                         <div id="mesg" class="hide col-10">
-                                                            <div class="m-auto">
+                                                            <div class="m-auto pt-3">
                                                                 <form method="POST" action="" accept-charset="UTF-8" class="text-center" autocomplete="off">
                                                                     <input name="_token" type="hidden">
                                                                     <div class="form-group">

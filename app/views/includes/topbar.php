@@ -40,40 +40,13 @@
                             <h6 class="text-overflow mb-2 text-uppercase">Users</h6>
                         </div>
 
-                        <div class="notification-list">
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                <div class="d-flex align-items-start">
-                                    <img class="d-flex me-2 rounded-circle" src="../assets/images/users/user-2.jpg"
-                                        alt="Generic placeholder image" height="32">
-                                    <div class="w-100">
-                                        <h5 class="m-0 font-14">Erwin E. Brown</h5>
-                                        <span class="font-12 mb-0">UI Designer</span>
-                                    </div>
-                                </div>
-                            </a>
-
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                <div class="d-flex align-items-start">
-                                    <img class="d-flex me-2 rounded-circle" src="../assets/images/users/user-5.jpg"
-                                        alt="Generic placeholder image" height="32">
-                                    <div class="w-100">
-                                        <h5 class="m-0 font-14">Jacob Deo</h5>
-                                        <span class="font-12 mb-0">Developer</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
                     </div>
                 </div>
             </form>
         </li>
 
         <li class="dropdown d-inline-block d-lg-none">
-            <a class="nav-link dropdown-toggle arrow-none waves-effect waves-light" data-bs-toggle="dropdown" href="#"
-                role="button" aria-haspopup="false" aria-expanded="false">
+            <a class="nav-link dropdown-toggle arrow-none waves-effect waves-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
                 <i class="fe-search noti-icon"></i>
             </a>
             <div class="dropdown-menu dropdown-lg dropdown-menu-end p-0">
@@ -84,8 +57,7 @@
         </li>
         <!-- Campana - notification - -->
         <li class="dropdown notification-list topbar-dropdown">
-            <a class="nav-link dropdown-toggle waves-effect waves-light" data-bs-toggle="dropdown" href="#"
-                role="button" aria-haspopup="false" aria-expanded="false">
+            <a class="nav-link dropdown-toggle waves-effect waves-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
                 <i class="fe-bell noti-icon"></i>
                 <span class="badge bg-danger rounded-circle noti-icon-badge">666</span>
             </a>
@@ -104,16 +76,6 @@
 
                 <div class="noti-scroll" data-simplebar>
 
-                    <!-- item-->
-                    <a href="javascript:void(0);" class="dropdown-item notify-item active">
-                        <div class="notify-icon">
-                            <img src="../assets/images/users/user-1.jpg" class="img-fluid rounded-circle" alt="" />
-                        </div>
-                        <p class="notify-details">Cristina Pride</p>
-                        <p class="text-muted mb-0 user-msg">
-                            <small>Hi, How are you? What about our next meeting</small>
-                        </p>
-                    </a>
 
                     <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item notify-item">
@@ -122,17 +84,6 @@
                         </div>
                         <p class="notify-details">Caleb Flakelar commented on Admin
                             <small class="text-muted">1 min ago</small>
-                        </p>
-                    </a>
-
-                    <!-- item-->
-                    <a href="javascript:void(0);" class="dropdown-item notify-item">
-                        <div class="notify-icon">
-                            <img src="../assets/images/users/user-4.jpg" class="img-fluid rounded-circle" alt="" />
-                        </div>
-                        <p class="notify-details">Karen Robinson</p>
-                        <p class="text-muted mb-0 user-msg">
-                            <small>Wow ! this admin looks good and awesome design</small>
                         </p>
                     </a>
 
@@ -178,8 +129,7 @@
         </li>
 
         <li class="dropdown notification-list topbar-dropdown">
-            <a class="nav-link dropdown-toggle nav-user me-0 waves-effect waves-light" data-bs-toggle="dropdown"
-                href="#" role="button" aria-haspopup="false" aria-expanded="false">
+            <a class="nav-link dropdown-toggle nav-user me-0 waves-effect waves-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
                 <img src="../../../public/img/users/user-1.jpg" alt="user-image" class="rounded-circle">
                 <span class="pro-user-name ms-1">
                     User Dime <i class="mdi mdi-chevron-down"></i>
