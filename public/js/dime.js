@@ -122,17 +122,21 @@ if (msm) {
 const btnShow = document.getElementById('switch');
 const mesg = document.getElementById('mesg')
 
-btnShow.addEventListener(('click'), () => {
-    mesg.classList.toggle('show')
-})
+if (btnShow) {
+    btnShow.addEventListener(('click'), () => {
+        mesg.classList.toggle('show')
+    })
+}
 
 //! Script - server-details.php
 
 const btnGeneratePass = document.getElementById('btnPwd');
 const divGeneratePass = document.getElementById('passwordEmail');
 
-btnGeneratePass.addEventListener(('click'), (e) => {
-    e.preventDefault();
-    divGeneratePass.classList.toggle('show')
-})
+if (btnGeneratePass) {
+    btnGeneratePass.addEventListener(('click'), (e) => {
+        e.preventDefault();
+        divGeneratePass.classList.toggle('show')
+    })
+}
 
