@@ -196,35 +196,60 @@
 
                                     <hr>
 
-                                    <div class="table-responsive">
-                                        <table class="table table-bordered table-condensed table-striped">
-                                            <thead>
-                                                <tr>
-                                                    <th>Producto</th>
-                                                    <th>Briefs</th>
-                                                    <th>Estatus</th>
-                                                    <th>Total Brief</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>Página Web Standard</td>
-                                                    <td>
-                                                        <input type="hidden" id="urlBrief" name="urlBrief">
-                                                        <input type="hidden" id="logotipourl" name="logotipourl">
-                                                        <input type="hidden" id="namingurl" name="namingurl">
-                                                        <button class="btn btn-primary">Brief Suweb</button>
-                                                    </td>
-                                                    <td>
-                                                        Entregado
-                                                    </td>
-                                                    <td>
-                                                        <strong>Total Suweb:</strong>
-                                                        <suweb>2</suweb>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
+
+                                    <div class="box-body">
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered table-condensed table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Producto</th>
+                                                        <th>Briefs</th>
+                                                        <th>Estatus</th>
+                                                        <th>Total Brief</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Página Web Standard</td>
+                                                        <td>
+                                                            <input type="hidden" id="urlBrief" name="urlBrief" value="https://midime.com.mx/dime/sendbrief">
+                                                            <input type="hidden" id="logotipourl" name="logotipourl" value="https://midime.com.mx/dime/sendlogotipo">
+                                                            <input type="hidden" id="namingurl" name="namingurl" value="https://midime.com.mx/dime/sendnaming">
+                                                            <button class="btn btn-primary" onclick="javascript:sendBrief(2, 'eyJpdiI6Ik82NWlncXF5QmJ6WnJaaFBQQXRpREE9PSIsInZhbHVlIjoiR3VrNktQeFwvenZCXC9vMWxGaXJkQnB3PT0iLCJtYWMiOiI0MmQxZWYzMGM1OWJmZjA0YzVmZDE2Y2YwOTUzMGM1NTUyN2Q3Y2Y0YTAwYjA0MWZhN2I2ZWU4YjY4YTU0ZjY2In0='); return false;">Brief Suweb</button>
+                                                        </td>
+                                                        <td>
+                                                            Entregado
+                                                        </td>
+                                                        <td>
+                                                            <strong>Total Suweb:</strong>
+                                                            <suweb>2</suweb>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <hr>
+                                        <h5>Seguimiento :
+                                            <a href="#" class="btn btn-primary btn-sm" style="float:right">Nueva Observación</a>
+                                        </h5><br>
+                                        <div class="form-observacion" style="display: block;">
+                                            <input type="hidden" value="https://midime.com.mx/dime/seguimiento" id="URLObservaciones">
+                                            <input id="pedido_id" name="pedido_id" type="hidden" value="556">
+                                            <input id="_token_observacion" name="_token_observacion" type="hidden" value="6qOCXTGfw1y5xM7Fqcg8dTl75oswguE6Ba5uv8P1">
+                                        </div>
+
+                                        <br>
+                                        <div>
+                                            <ul>
+                                                <li class="d-flex">
+                                                    <i class="mdi mdi-calendar"></i>
+                                                    <span> 03 DE MAYO DE 2022 - 10:58:31</span>
+                                                    &nbsp;
+                                                    <p class="fw-bold">Ana Karla Vara: 27/ 04: Se proporciono home actualizado. En espera de comentarios.</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
