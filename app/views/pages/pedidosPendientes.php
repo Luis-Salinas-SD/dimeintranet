@@ -22,11 +22,13 @@
                 <div class="container-fluid">
                     <div class="row">
                         <h1> Pedidos Pendientes</h1>
-                        <button type="button" class="btn btn-success waves-effect waves-light col-4  col-md-2 col-sm-4 m-2" data-bs-toggle="modal" data-bs-target="#con-close-modal">Añadir cliente
+                        <button type="button" class="btn btn-success waves-effect waves-light col-4  col-md-2 col-sm-4 m-2" data-bs-toggle="modal" data-bs-target="#con-close-modal">
+                            <i class="mdi mdi-cart-plus"></i>
+                            Nuevo Pedido
                         </button>
                         <!-- Modal Formulario init -->
                         <div id="con-close-modal" class="modal fade" tabindex="-1" aria-labelledby="myModalLabel" style="display: none;" aria-hidden="true">
-                            <div class="modal-dialog">
+                            <div class="modal-dialog modal-lg">
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h4 class="modal-title">Nuevo Pedido</h4>
@@ -35,48 +37,28 @@
                                     <form>
                                         <div class="modal-body">
                                             <div class="row">
-                                                <div class="col-md-6">
+                                                <div class="col-md-12">
                                                     <div class="mb-3">
                                                         <label for="field-1" class="form-label">
-                                                            Nombre de la Empresa
+                                                            Seleccione Empresa
                                                         </label>
-                                                        <input type="text" class="form-control" id="field-1" placeholder="Empresa" required>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="mb-3">
-                                                        <label for="field-2" class="form-label">Contacto</label>
-                                                        <input type="text" class="form-control" id="field-2" placeholder="contacto" required>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <div class="mb-3">
-                                                        <label for="field-3" class="form-label">Dirección</label>
-                                                        <input type="text" class="form-control" id="field-3" placeholder="Dirección" required>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                    <div class="mb-3">
-                                                        <label for="field-4" class="form-label">Telefono</label>
-                                                        <input type="tel" class="form-control" id="field-4" placeholder="Telefono" pattern="[0-9]{10}" required>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <div class="mb-3">
-                                                        <label for="field-5" class="form-label">Correo</label>
-                                                        <input type="email" class="form-control" id="field-5" placeholder="email" required>
+                                                        <select class="form-select" id="seleccion">
+                                                            <option selected=""> - Selecciona una opción - </option>
+                                                            <option value="1">Empresa 1</option>
+                                                            <option value="2">Empresa 2</option>
+                                                            <option value="3">Empresa 3</option>
+                                                        </select>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-12">
-                                                    <div class="mb-3 form-check form-check-success">
-                                                        <input class="form-check-input" type="checkbox" value="" id="customckeck2">
-                                                        <label class="form-check-label" for="customckeck2">Cliente a
-                                                            credito</label>
+                                                    <div class="mb-3">
+                                                        <label for="field-2" class="form-label">Cliente</label>
+                                                        <input type="text" class="form-control" id="client" placeholder="cliente" required>
                                                     </div>
+                                                </div>
+                                                <hr>
+                                                <div class="col-12" id="showForm">
+
                                                 </div>
                                             </div>
                                         </div>
@@ -114,41 +96,30 @@
                                         <table class="table mb-0">
                                             <thead class="table-dark">
                                                 <tr>
-                                                    <th>#</th>
-                                                    <th>Empresa</th>
-                                                    <th>Contacto</th>
-                                                    <th>Teléfono</th>
-                                                    <th>Email</th>
-                                                    <th>T. cliente</th>
-                                                    <th>Acciones</th>
+                                                    <th>Cliente</th>
+                                                    <th># Pedido</th>
+                                                    <th>Descripción</th>
+                                                    <th>Importe</th>
+                                                    <th>Anticipo</th>
+                                                    <th>Resta</th>
+                                                    <th>Fincado</th>
+                                                    <th>Entrega</th>
+                                                    <th>Acción</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <th scope="row">1</th>
-                                                    <td>Facebook</td>
-                                                    <td>Yoss</td>
-                                                    <td>855 697 6545</td>
-                                                    <td>astroboy@dime.com</td>
-                                                    <td class="col-sm-auto">
-                                                        <select class="form-select" aria-label="Default select example">
-                                                            <option selected>Seleccione tipo de cliente</option>
-                                                            <option value="1">Cliente</option>
-                                                            <option value="2">Prospecto</option>
-                                                        </select>
-                                                    </td>
+                                                    <td>Sergio Sanabria </td>
+                                                    <td>556</td>
+                                                    <td>Página Web Standard</td>
+                                                    <td>$6,500.00</td>
+                                                    <td>$0.00</td>
+                                                    <td>$6,500.00 </td>
+                                                    <td>09/01/2019 </td>
+                                                    <td>31/01/2019</td>
                                                     <th>
-                                                        <a data-bs-toggle="tooltip" title="Detalles" href="#" class="btn btn-success">
-                                                            <i class="fa fa-eye"></i>
-                                                        </a>
-                                                        <a data-bs-toggle="tooltip" title="Editar" data-original-title="Detalles" href="#" class="btn btn-info">
+                                                        <a data-bs-toggle="tooltip" title="Editar" data-original-title="Detalles" href="./pedido-edit.php" class="btn btn-info">
                                                             <i class="fa fa-edit"></i>
-                                                        </a>
-                                                        <a data-bs-toggle="tooltip" title="Desactivar" data-original-title="Detalles" href="#" class="btn btn-danger">
-                                                            <i class="fa fa-ban"></i>
-                                                        </a>
-                                                        <a data-bs-toggle="tooltip" title="Correo" data-original-title="Detalles" href="#" class="btn btn-success">
-                                                            <i class="fa far fa-envelope-open"></i>
                                                         </a>
                                                     </th>
                                                 </tr>

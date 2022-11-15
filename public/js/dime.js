@@ -140,3 +140,49 @@ if (btnGeneratePass) {
     })
 }
 
+//! Script - pedidosPendientes.php
+
+const seleccion = document.querySelector('#seleccion');
+const showForm = document.querySelector('#showForm')
+
+seleccion.addEventListener('change', (e) => {
+    showForm.innerHTML = `
+        <div class="col-12 mb-3">
+            <label for="" class="form-label">Categoría</label>
+            <input type="text" name="" id="" class="form-control">
+        </div>
+        <div class="col-12 mb-3">
+            <label for="" class="form-label">Producto</label>
+            <select name="" id="" class="form-select">
+                <option value="">product 1</option>
+                <option value="">product 2</option>
+                <option value="">product 3</option>
+            </select>
+        </div>
+        <div class="col-12 mb-3">
+            <label for="" class="form-label">Cantidad</label>
+            <input type="number" name="" id="" class="form-control">
+        </div>
+        <div class="col-12 mb-3">
+            <label for="" class="form-label">Precio</label>
+        <div class="input-group">
+            <span class="input-group-text" id="basic-addon1">$</span>
+            <input type="number" class="form-control" placeholder="Precio" aria-label="precio" aria-describedby="basic-addon1">
+        </div>
+        </div>
+        <div class="col-12 mb-3">
+            <label for="" class="form-label">Fecha de Entrega</label>
+            <input class="form-control" id="example-date" type="date" name="date">
+        </div>
+        <div class="col-12 mb-3">
+            <label for="" class="form-label">Asignar a un Usuario</label>
+            <select name="" id="" class="form-select">
+                <option value="">- Seleccionar una opción -</option>
+                <option value="">Robert</option>
+                <option value="">Luis</option>
+                <option value="">Lic Mañon</option>
+            </select>
+        </div>
+    `
+})
+
