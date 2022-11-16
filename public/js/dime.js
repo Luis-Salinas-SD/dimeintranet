@@ -186,3 +186,13 @@ seleccion.addEventListener('change', (e) => {
     `
 })
 
+//! script Agergar pago en pedido-edit.php
+
+const addPago = document.querySelector('#addPago')
+const showFormPago = document.querySelector('#showFormPago')
+
+addPago.addEventListener('click', (event) => {
+    event.preventDefault()
+    showFormPago.classList.toggle('show');
+})
+

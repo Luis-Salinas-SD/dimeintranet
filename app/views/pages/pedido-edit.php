@@ -179,7 +179,7 @@
                                                 <tr>
                                                     <td colspan="9" class="text-center btn-addPago">
 
-                                                        <button class="btn btn-success">
+                                                        <button class="btn btn-success" id="addPago">
                                                             <i class="mdi mdi-cash"></i>
                                                             Agregar Pago
                                                         </button>
@@ -192,6 +192,9 @@
                                                 </tr>
                                             </tbody>
                                         </table>
+                                        <div class="hide" id="showFormPago">
+                                            <h2>Hola</h2>
+                                        </div>
                                     </div>
 
                                     <hr>

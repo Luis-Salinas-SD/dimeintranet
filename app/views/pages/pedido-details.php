@@ -108,60 +108,109 @@
 
                                     <hr>
 
-                                    <div class="box-body">
-                                        <div class="table-responsive">
-                                            <table class="table table-bordered table-condensed table-striped">
-                                                <thead>
-                                                    <tr>
-                                                        <th>Producto</th>
-                                                        <th>Briefs</th>
-                                                        <th>Estatus</th>
-                                                        <th>Total Brief</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>Página Web Standard</td>
-                                                        <td>
-                                                            <input type="hidden" id="urlBrief" name="urlBrief">
-                                                            <input type="hidden" id="logotipourl" name="logotipourl">
-                                                            <input type="hidden" id="namingurl" name="namingurl">
-                                                            <button class="btn btn-primary">Brief Suweb</button>
-                                                        </td>
-                                                        <td>
-                                                            Entregado
-                                                        </td>
-                                                        <td>
-                                                            <strong>Total Suweb:</strong>
-                                                            <suweb>2</suweb>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                        <hr>
-                                        <h5>Seguimiento :
-                                            <a href="#" class="btn btn-primary btn-sm" style="float:right">Nueva Observación</a>
-                                        </h5><br>
-                                        <div class="form-observacion" style="display: block;">
-                                            <input type="hidden" value="https://midime.com.mx/dime/seguimiento" id="URLObservaciones">
-                                            <input id="pedido_id" name="pedido_id" type="hidden" value="556">
-                                            <input id="_token_observacion" name="_token_observacion" type="hidden" value="6qOCXTGfw1y5xM7Fqcg8dTl75oswguE6Ba5uv8P1">
-                                        </div>
+                                    <div class="col-md-12">
+                                        <div class="box box-primary">
+                                            <div class="box-header">
+                                                <h3 class="box-title">Datos de Facturación</h3>
+                                            </div>
+                                            <div class="box-body table-responsive">
+                                                <table class="table table-bordered table-hover">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Razon Social</th>
+                                                            <th>R.F.C</th>
+                                                            <th>Dirección</th>
+                                                            <th>Estado</th>
+                                                            <th>Ciudad</th>
+                                                            <th>Municipio</th>
+                                                            <th>CP</th>
+                                                            <th>Zona Fronteriza</th>
+                                                            <th>Acciones</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Sergio Adrián Sanabria Salgado</td>
+                                                            <td>SASS7612061L4</td>
+                                                            <td>Aurelio Venegas</td>
+                                                            <td>México</td>
+                                                            <td>Toluca</td>
+                                                            <td>Toluca</td>
+                                                            <td>50080</td>
+                                                            <td>
 
-                                        <br>
-                                        <div>
-                                            <ul>
-                                                <li class="d-flex">
-                                                    <i class="mdi mdi-calendar"></i>
-                                                    <span> 03 DE MAYO DE 2022 - 10:58:31</span>
-                                                    &nbsp;
-                                                    <p class="fw-bold">Ana Karla Vara: 27/ 04: Se proporciono home actualizado. En espera de comentarios.</p>
-                                                </li>
-                                            </ul>
+                                                                NO
+                                                            </td>
+                                                            <td>
+                                                                <a data-bs-toggle="tooltip" title="Editar datos de Facturación" href="#" class="btn btn-info">
+                                                                    <i class="mdi mdi-lead-pencil"></i>
+                                                                </a>
+                                                                <a data-bs-toggle="tooltip" title="Eliminar datos de Facturación" href="#" class="btn btn-danger">
+                                                                    <i class="mdi mdi-delete"></i>
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
                                         </div>
-
                                     </div>
+
+                                    <hr>
+
+                                    <div class="box box-primary">
+                                        <div class="box-header">
+                                            <h3 class="box-title">Servicios Contratados : <strong>3</strong></h3>
+                                        </div>
+                                        <section class="d-flex">
+                                            <div class="col-3 m-2">
+                                                <div class="bg-dime p-2 rounded">
+                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#serv">
+                                                        <div>
+                                                            <h2 class="text-white">Suweb</h2>
+                                                        </div>
+                                                        <div class="text-white">
+                                                            Total : 1
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="serv" tabindex="-1" aria-labelledby="serv" aria-hidden="true">
+                                                    <div class="modal-dialog modal-lg">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title" id="exampleModalLabel">Servicios</h5>
+                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <div class="table-responsive">
+                                                                    <table class="table table-striped table-hover table-bordered">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <th>Tipo de Servicio : </th>
+                                                                                <td> <a href="https://midime.com.mx/dime/dominios/eyJpdiI6IjJJMVJLK3Z5emtBU0xubmFVQ3VPUXc9PSIsInZhbHVlIjoiZ2VPYkpWZW13bTdCWm51djdRaFVGdz09IiwibWFjIjoiZjYxYzQ5N2IwNmJhMGJiYzg4OGU3ZGQzYTg0OWEzZTNjMDk2ODRhYTRhZjNjYzhhMDYzNGExYzgwZTM5NjQ0YyJ9" target="_blank">Web Pro</a> </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th>Dominio : </th>
+                                                                                <td><a href="http://crearte.mx" target="_blank">http://crearte.mx</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th>Estado Actual : </th>
+                                                                                <td>
+                                                                                    <div class="on">Dominio Correcto</div>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
