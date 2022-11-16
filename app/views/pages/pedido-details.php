@@ -21,11 +21,7 @@
             <div class="content">
                 <div class="container-fluid">
                     <div class="row">
-                        <h1>Datos del pedido</h1>
-                        <button type="button" class="btn btn-success waves-effect waves-light col-4  col-md-2 col-sm-4 m-2" data-bs-toggle="modal" data-bs-target="#con-close-modal">
-                            <i class="mdi mdi-cart-plus"></i>
-                            Nuevo Pedido
-                        </button>
+                        <h1>Detalles del pedido</h1>
                         <!-- Modal Formulario init -->
                         <div id="con-close-modal" class="modal fade" tabindex="-1" aria-labelledby="myModalLabel" style="display: none;" aria-hidden="true">
                             <div class="modal-dialog modal-lg">
@@ -74,121 +70,37 @@
                         <div class="col-lg-12">
                             <div class="card">
                                 <div class="card-body">
-                                    <section class="d-flex justify-content-between align-items-center">
-                                        <div class="py-2">
-                                            <button type="button" class="btn btn-danger rounded-pill waves-effect waves-light">
-                                                <i class="mdi mdi-delete"></i>
-                                                Cancelar pedido
-                                            </button>
-                                            <button type="button" class="btn btn-info rounded-pill waves-effect waves-light">
-                                                <i class="mdi mdi-block-helper"></i>
-                                                Pedido abandonado
-                                            </button>
-                                        </div>
-                                        <div>
-                                            <button type="button" class="btn btn-success rounded-pill waves-effect waves-light">
-                                                <i class="mdi mdi-printer"></i>
-                                                Imprimir
-                                            </button>
-                                        </div>
-                                    </section>
-
-                                    <div class="table-responsive mt-3">
-                                        <table class="table table-bordered table-condensed table-striped">
+                                    <span class="fs-3 my-4">Nombre de la Empresa:
+                                        <b>Dimek</b>
+                                    </span>
+                                    <div class="box-body table-responsive">
+                                        <table class="table table-bordered table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th>Contacto</th>
+                                                    <th>Dirección</th>
+                                                    <th>Teléfono</th>
+                                                    <th>Email</th>
+                                                    <th>Estado Actual</th>
+                                                    <th>Fecha de Registro</th>
+                                                    <th>Fecha de Actualización</th>
+                                                </tr>
+                                            </thead>
                                             <tbody>
                                                 <tr>
-                                                    <th colspan="3">Número de Pedido</th>
-                                                    <td colspan="4">556</td>
-                                                </tr>
-                                                <tr>
-                                                    <th colspan="3">Razon Social (Vendedor)</th>
-                                                    <td colspan="4">DIME ESTUDIO DE DISEÑO, S.A. DE C.V. (DED171206927)</td>
-                                                </tr>
-                                                <tr>
-                                                    <th colspan="3">Cliente</th>
-                                                    <td colspan="4">SERGIO SANABRIA
-                                                        <a class="btn btn-outline-primary waves-effect waves-light" href="./pedido-details.php" target="_blank">
-                                                            <i class="mdi mdi-eye"></i> Detalles
-                                                        </a>
-                                                        &nbsp;&nbsp;
-                                                        <input type="hidden" id="urlsenddatosbancariospedido" name="">
-                                                        <a class="btn btn-outline-dark waves-effect waves-light" href="#">
-                                                            <i class="mdi mdi-email"></i> Datos Bancarios
-                                                        </a>
+                                                    <td>
+                                                        Sergio Sanabria
                                                     </td>
-                                                </tr>
-                                                <tr>
-                                                    <th colspan="3">Importe</th>
-                                                    <td colspan="4">$6,500.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <th colspan="3">Vendedor</th>
-                                                    <td colspan="4">ROBERTO CAMPIRAN</td>
-                                                </tr>
-                                                <tr>
-                                                    <th colspan="7" class="text-center">Productos Vendidos</th>
-                                                </tr>
-                                                <tr>
-                                                    <th>Producto</th>
-                                                    <th>Fecha de Entrega</th>
-                                                    <th>Estatus</th>
-                                                    <th>Encargado</th>
-                                                    <th>Cantidad</th>
-                                                    <th>P. Unitario</th>
-                                                    <th>Subtotal</th>
-                                                </tr>
-                                                <tr>
-                                                    <td>Página Web Standard</td>
-                                                    <td>31 DE ENERO DE 2019</td>
-                                                    <td>Entregado</td>
-                                                    <td>MARCOS ROMERO</td>
-                                                    <td>1</td>
-                                                    <td>$5,603.45</td>
-                                                    <td>$5,603.45</td>
-                                                </tr>
-                                                <tr>
-                                                    <td colspan="6" class="text-right">Subtotal sin IVA:</td>
-                                                    <td>$5,603.45</td>
-                                                </tr>
-                                                <tr>
-                                                    <td colspan="6" class="text-right">IVA (16%):</td>
-                                                    <td>$896.55</td>
-                                                </tr>
-                                                <tr>
-                                                    <td colspan="6" class="text-right">Total a pagar:</td>
-                                                    <td>$6,500.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <td colspan="6" class="text-right">Total pagado:</td>
-                                                    <td>$0.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <td colspan="6" class="text-right">Falta Por Pagar:</td>
-                                                    <td>$6,500.00</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                        <table class="table table-bordered table-condensed ">
-                                            <tbody>
-                                                <tr>
-                                                    <th colspan="9" class="text-center">Pagos Realizados</th>
-                                                </tr>
-                                                <tr>
-                                                    <td class="text-center" colspan="9">NO SE HAN REALIZADO PAGOS</td>
-                                                </tr>
-                                                <tr>
-                                                    <td colspan="9" class="text-center btn-addPago">
+                                                    <td>México</td>
+                                                    <td>7222155399</td>
+                                                    <td>impresosgraficoscrearte@hotmail.com</td>
+                                                    <td>
 
-                                                        <button class="btn btn-success">
-                                                            <i class="mdi mdi-cash"></i>
-                                                            Agregar Pago
-                                                        </button>
+                                                        Activo
 
-                                                        <button class="btn btn-success">
-                                                            <i class="mdi mdi-contactless-payment"></i>
-                                                            Generar Orden de Pago
-                                                        </button>
                                                     </td>
+                                                    <td>30 DE OCTUBRE DE 2018</td>
+                                                    <td>28 DE MARZO DE 2022</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -232,9 +144,9 @@
                                             <a href="#" class="btn btn-primary btn-sm" style="float:right">Nueva Observación</a>
                                         </h5><br>
                                         <div class="form-observacion" style="display: block;">
-                                            <input type="hidden" value="" id="URLObservaciones">
-                                            <input id="pedido_id" name="pedido_id" type="hidden">
-                                            <input id="_token_observacion" name="_token_observacion" type="hidden">
+                                            <input type="hidden" value="https://midime.com.mx/dime/seguimiento" id="URLObservaciones">
+                                            <input id="pedido_id" name="pedido_id" type="hidden" value="556">
+                                            <input id="_token_observacion" name="_token_observacion" type="hidden" value="6qOCXTGfw1y5xM7Fqcg8dTl75oswguE6Ba5uv8P1">
                                         </div>
 
                                         <br>
