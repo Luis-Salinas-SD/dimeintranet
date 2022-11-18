@@ -21,3 +21,4 @@
 
     <!-- Script - Dime  -->
     <script src="../../../public/js/dime.js"></script>
+    <script src="../../../public/js/sweetDime.js"></script>

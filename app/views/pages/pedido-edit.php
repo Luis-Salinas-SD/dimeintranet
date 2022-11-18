@@ -184,7 +184,7 @@
                                                             Agregar Pago
                                                         </button>
 
-                                                        <button class="btn btn-success">
+                                                        <button class="btn btn-success" id="generatePay">
                                                             <i class="mdi mdi-contactless-payment"></i>
                                                             Generar Orden de Pago
                                                         </button>
@@ -192,8 +192,35 @@
                                                 </tr>
                                             </tbody>
                                         </table>
-                                        <div class="hide" id="showFormPago">
-                                            <h2>Hola</h2>
+                                        <div class="hide col-12" id="showFormPago">
+                                            <h2>Agregar Importes</h2>
+                                            <div class="col-12 my-2">
+                                                <label for="" class="form-label">Selecciona Razón Social</label>
+                                                <select name="" id="" class="form-select">
+                                                    <option value="">op1</option>
+                                                    <option value="">op2</option>
+                                                    <option value="">op3</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-12 my-2">
+                                                <label for="" class="form-label">Selecciona un Método de Pago</label>
+                                                <select name="" id="" class="form-select">
+                                                    <option value="">op1</option>
+                                                    <option value="">op2</option>
+                                                    <option value="">op3</option>
+                                                </select>
+                                            </div>
+                                            <div class="d-flex justify-content-around">
+                                                <div class="col-5 my-2">
+                                                    <label for="" class="form-label">Importe</label>
+                                                    <input type="text" name="" id="" class="form-control">
+                                                </div>
+                                                <div class="col-5 my-2">
+                                                    <label for="" class="form-label">Fecha de importe</label>
+                                                    <input type="date" name="" id="" class="form-control">
+                                                </div>
+                                            </div>
+
                                         </div>
                                     </div>
 

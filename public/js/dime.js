@@ -66,7 +66,7 @@ const agregarFila = () => {
 
 //* Sweet Alerts
 //! Script - server-details.php
-const alerta = document.getElementById("ajax-alert")
+const alerta = document.getElementById("ajax-alert");
 
 if (alerta) {
     alerta.addEventListener("click", function () {
