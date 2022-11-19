@@ -8,7 +8,7 @@ if (generatePay) {
             html:
                 `<label>Cantidad a pagar</label><input id="swal-input1" class="swal2-input"><label>Concepto de pago</label><input id="swal-input2" class="swal2-input"><label>MSI</label><select name="" id="" class="form-select"> < option value="" > op1</> <option value="">op2</option> <option value="">op3</option></select > `,
             showCancelButton: true,
-            confirmButtonText: 'Ver',
+            confirmButtonText: 'Generar',
             showLoaderOnConfirm: true,
             confirmButtonColor: "#10c469",
             cancelButtonColor: "#f34e4e",
