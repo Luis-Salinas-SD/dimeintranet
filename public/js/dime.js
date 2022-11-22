@@ -199,5 +199,3 @@ if (addPago) {
         showFormPago.classList.toggle('show');
     })
 }
-
-
