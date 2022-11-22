@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<?php include('../includes/headDashboard.php') ?>
+
+<!-- body start -->
+
+<body class="loading" data-layout='{"mode": "light", "width": "fluid", "menuPosition": "fixed", "sidebar": { "color": "light", "size": "default", "showuser": true}, "topbar": {"color": "light"}, "showRightSidebarOnPageLoad": true}'>
+
+    <!-- Begin page -->
+    <div id="wrapper">
+        <!-- Topbar Start -->
+        <?php include('../includes/topbar.php') ?>
+
+        <!-- ========== Left Sidebar Start ========== -->
+        <?php include('../includes/leftSidebar.php') ?>
+
+        <!-- ============================================================== -->
+        <!-- Start Page Content here -->
+        <!-- ============================================================== -->
+        <div class="content-page">
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <h1>Datos del pedido</h1>
+                        <button type="button" class="btn btn-success waves-effect waves-light col-4  col-md-2 col-sm-4 m-2" data-bs-toggle="modal" data-bs-target="#con-close-modal">
+                            <i class="mdi mdi-cart-plus"></i>
+                            Activar Pedido Abandonado
+                        </button>
+                        <!-- Modal Formulario init -->
+                        <div id="con-close-modal" class="modal fade" tabindex="-1" aria-labelledby="myModalLabel" style="display: none;" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Nuevo Pedido</h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <form>
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="mb-3">
+                                                        <label for="field-1" class="form-label">
+                                                            Seleccione Empresa
+                                                        </label>
+                                                        <select class="form-select" id="seleccion">
+                                                            <option selected=""> - Selecciona una opción - </option>
+                                                            <option value="1">Empresa 1</option>
+                                                            <option value="2">Empresa 2</option>
+                                                            <option value="3">Empresa 3</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="mb-3">
+                                                        <label for="field-2" class="form-label">Cliente</label>
+                                                        <input type="text" class="form-control" id="client" placeholder="cliente" required>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="col-12" id="showForm">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="submit" class="btn btn-primary waves-effect waves-light">Guardar</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal Formulario fin -->
+                        <!-- Filtros search init-->
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <section class="d-flex justify-content-between align-items-center">
+                                        <div class="py-2">
+                                            <button type="button" class="btn btn-danger rounded-pill waves-effect waves-light">
+                                                <i class="mdi mdi-delete"></i>
+                                                Cancelar pedido
+                                            </button>
+                                            <button type="button" class="btn btn-info rounded-pill waves-effect waves-light">
+                                                <i class="mdi mdi-block-helper"></i>
+                                                Pedido abandonado
+                                            </button>
+                                        </div>
+                                        <div>
+                                            <button type="button" class="btn btn-success rounded-pill waves-effect waves-light">
+                                                <i class="mdi mdi-printer"></i>
+                                                Imprimir
+                                            </button>
+                                        </div>
+                                    </section>
+
+                                    <div class="table-responsive mt-3">
+                                        <table class="table table-bordered table-condensed table-striped">
+                                            <tbody>
+                                                <tr>
+                                                    <th colspan="3">Número de Pedido</th>
+                                                    <td colspan="4">556</td>
+                                                </tr>
+                                                <tr>
+                                                    <th colspan="3">Razon Social (Vendedor)</th>
+                                                    <td colspan="4">DIME ESTUDIO DE DISEÑO, S.A. DE C.V. (DED171206927)</td>
+                                                </tr>
+                                                <tr>
+                                                    <th colspan="3">Cliente</th>
+                                                    <td colspan="4">SERGIO SANABRIA
+                                                        <a class="btn btn-outline-primary waves-effect waves-light" href="./pedido-details.php" target="_blank">
+                                                            <i class="mdi mdi-eye"></i> Detalles
+                                                        </a>
+                                                        &nbsp;&nbsp;
+                                                        <input type="hidden" id="urlsenddatosbancariospedido" name="">
+                                                        <a class="btn btn-outline-dark waves-effect waves-light" href="#">
+                                                            <i class="mdi mdi-email"></i> Datos Bancarios
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th colspan="3">Importe</th>
+                                                    <td colspan="4">$6,500.00</td>
+                                                </tr>
+                                                <tr>
+                                                    <th colspan="3">Vendedor</th>
+                                                    <td colspan="4">ROBERTO CAMPIRAN</td>
+                                                </tr>
+                                                <tr>
+                                                    <th colspan="7" class="text-center">Productos Vendidos</th>
+                                                </tr>
+                                                <tr>
+                                                    <th>Producto</th>
+                                                    <th>Fecha de Entrega</th>
+                                                    <th>Estatus</th>
+                                                    <th>Encargado</th>
+                                                    <th>Cantidad</th>
+                                                    <th>P. Unitario</th>
+                                                    <th>Subtotal</th>
+                                                </tr>
+                                                <tr>
+                                                    <td>Página Web Standard</td>
+                                                    <td>31 DE ENERO DE 2019</td>
+                                                    <td>Entregado</td>
+                                                    <td>MARCOS ROMERO</td>
+                                                    <td>1</td>
+                                                    <td>$5,603.45</td>
+                                                    <td>$5,603.45</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="6" class="text-end">Subtotal sin IVA:</td>
+                                                    <td>$5,603.45</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="6" class="text-end">IVA (16%):</td>
+                                                    <td>$896.55</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="6" class="text-end">Total a pagar:</td>
+                                                    <td>$6,500.00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="6" class="text-end">Total pagado:</td>
+                                                    <td>$0.00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="6" class="text-end">Falta Por Pagar:</td>
+                                                    <td>$6,500.00</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <table class="table table-bordered table-condensed ">
+                                            <tbody>
+                                                <tr>
+                                                    <th colspan="9" class="text-center">Pagos Realizados</th>
+                                                </tr>
+                                                <tr>
+                                                    <td>Acreditar</td>
+                                                    <td>Id de Pago</td>
+                                                    <td>Anticipo</td>
+                                                    <td>% Pago</td>
+                                                    <td>Fecha de Pago</td>
+                                                    <td>Staff</td>
+                                                    <td>Forma de Pago</td>
+                                                    <td>Factura</td>
+                                                    <td>&nbsp;</td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td></td>
+                                                    <td>824</td>
+                                                    <td>$13,200.00</td>
+                                                    <td>80.14%</td>
+                                                    <td>07 DE MARZO DE 2019</td>
+                                                    <td>ROBERTO CAMPIRAN</td>
+                                                    <td>Transferencia electrónica de fondos</td>
+                                                    <td>
+                                                        <a href="" class="btn btn-primary"><i class="fa fa-download"></i> Descarga PDF </a>
+                                                        <a href="" class="btn btn-primary"><i class="fa fa-download"></i> Descargar XML </a>
+                                                        <input type="hidden" id="UrlFacturaRenenviar" value="">
+                                                        <button class="btn btn-success"><i class="fa fa-envelope"></i> Reenviar Factura </button>
+                                                        <input type="hidden" id="UrlFactura" value="">
+                                                        &nbsp;<button class="btn btn-danger"><i class="fa fa-ban"></i> Cancelar Pago </button>
+                                                    </td>
+                                                    <td>
+                                                        <a class="btn btn-info" href="" target="blank"><i class="fa fa-print"></i> Imprimir</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="9" class="text-center btn-addPago">
+
+                                                        <button class="btn btn-success" id="addPago">
+                                                            <i class="mdi mdi-cash"></i>
+                                                            Agregar Pago
+                                                        </button>
+
+                                                        <button class="btn btn-success" id="generatePay">
+                                                            <i class="mdi mdi-contactless-payment"></i>
+                                                            Generar Orden de Pago
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="hide col-12" id="showFormPago">
+                                            <h2>Agregar Importes</h2>
+                                            <div class="col-12 my-2">
+                                                <label for="" class="form-label">Selecciona Razón Social</label>
+                                                <select name="" id="" class="form-select">
+                                                    <option value="">op1</option>
+                                                    <option value="">op2</option>
+                                                    <option value="">op3</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-12 my-2">
+                                                <label for="" class="form-label">Selecciona un Método de Pago</label>
+                                                <select name="" id="" class="form-select">
+                                                    <option value="">op1</option>
+                                                    <option value="">op2</option>
+                                                    <option value="">op3</option>
+                                                </select>
+                                            </div>
+                                            <div class="d-flex justify-content-around">
+                                                <div class="col-5 my-2">
+                                                    <label for="" class="form-label">Importe</label>
+                                                    <input type="text" name="" id="" class="form-control">
+                                                </div>
+                                                <div class="col-5 my-2">
+                                                    <label for="" class="form-label">Fecha de importe</label>
+                                                    <input type="date" name="" id="" class="form-control">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <hr>
+
+                                    <div class="box-body">
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered table-condensed table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Producto</th>
+                                                        <th>Briefs</th>
+                                                        <th>Estatus</th>
+                                                        <th>Total Brief</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Página Web Standard</td>
+                                                        <td>
+                                                            <input type="hidden" id="urlBrief" name="urlBrief">
+                                                            <input type="hidden" id="logotipourl" name="logotipourl">
+                                                            <input type="hidden" id="namingurl" name="namingurl">
+                                                            <button class="btn btn-primary">Brief Suweb</button>
+                                                        </td>
+                                                        <td>
+                                                            Entregado
+                                                        </td>
+                                                        <td>
+                                                            <strong>Total Suweb:</strong>
+                                                            <suweb>2</suweb>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <hr>
+                                        <h5>Seguimiento :
+                                            <a href="#" class="btn btn-primary btn-sm" style="float:right">Nueva Observación</a>
+                                        </h5><br>
+                                        <div class="form-observacion" style="display: block;">
+                                            <input type="hidden" value="" id="URLObservaciones">
+                                            <input id="pedido_id" name="pedido_id" type="hidden">
+                                            <input id="_token_observacion" name="_token_observacion" type="hidden">
+                                        </div>
+
+                                        <br>
+                                        <div>
+                                            <ul>
+                                                <li class="d-flex">
+                                                    <i class="mdi mdi-calendar"></i>
+                                                    <span> 03 DE MAYO DE 2022 - 10:58:31</span>
+                                                    &nbsp;
+                                                    <p class="fw-bold">Ana Karla Vara: 27/ 04: Se proporciono home actualizado. En espera de comentarios.</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Filtros search fin-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page content -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- END wrapper -->
+    <!-- Rightbar Start -->
+    <?php include('../includes/rightbar.php') ?>
+    <!--Scripts  -->
+    <?php include('../includes/scriptsDashboard.php'); ?>
+</body>
+
+</html>

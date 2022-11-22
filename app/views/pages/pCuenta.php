@@ -67,8 +67,8 @@
                                                     <td>Pendiente de Pago</td>
                                                     <td>Abandonado</td>
                                                     <td>
-                                                        <a data-bs-toggle="tooltip" title="Canecelar" class="btn btn-danger" href="">
-                                                            <i class="mdi mdi-delete"></i>
+                                                        <a data-bs-toggle="tooltip" title="status" class="btn btn-info" href="./pedido-status.php">
+                                                            <i class="mdi mdi-text-search"></i>
                                                         </a>
                                                     </td>
                                                 </tr>
