@@ -23,7 +23,14 @@
                     <div class="row">
                         <div class="card">
                             <div class="card-body">
-                                <h2>Estadisticas</h2>
+                                <div class="col-md-12">
+                                    <form action="">
+                                        <div class="mb-3">
+                                            <label for="simpleinput" class="form-label">URL de promoción</label>
+                                            <input type="text" id="simpleinput" class="form-control">
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>

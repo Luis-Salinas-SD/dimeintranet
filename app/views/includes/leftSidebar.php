@@ -268,19 +268,19 @@
                         <ul class="nav-second-level">
                             <li class="d-inline-flex col-12">
                                 <i class="pt-2 far fa-chart-bar"></i>
-                                <a href="contacts-list.html">Estadisticas</a>
+                                <a href="../pages/mEstadisticas.php">Estadisticas</a>
                             </li>
                             <li class="d-inline-flex col-12">
                                 <i class="pt-2  fas fa-user-circle"></i>
-                                <a href="contacts-list.html">Clientes</a>
+                                <a href="../pages/mClientes.php">Clientes</a>
                             </li>
                             <li class="d-inline-flex col-12">
                                 <i class="pt-2 fas fa-eye"></i>
-                                <a href="contacts-list.html">Banner promocional</a>
+                                <a href="../pages/mBanner.php">Banner promocional</a>
                             </li>
                             <li class="d-inline-flex col-12">
                                 <i class="pt-2  fas fa-laptop-code"></i>
-                                <a href="contacts-list.html">Landing pages</a>
+                                <a href="../pages/mLanding.php">Landing pages</a>
                             </li>
                         </ul>
                     </div>
