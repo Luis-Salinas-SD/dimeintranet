@@ -23,7 +23,44 @@
                     <div class="row">
                         <div class="card">
                             <div class="card-body">
-                                <h2>Estadisticas</h2>
+                                <h2>Landing Pages</h2>
+                                <div class="col-12">
+                                    <div class="table-responsive">
+                                        <input type="hidden" id="_token" name="_token" value="">
+                                        <table class="table table-bordered table-condensed table-hover table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>Nombre</th>
+                                                    <th>Correo Electrónico</th>
+                                                    <th>Teléfono</th>
+                                                    <th>Plan</th>
+                                                    <th>Sitio Web</th>
+                                                    <th>Visto</th>
+                                                    <th>Seguimiento</th>
+                                                    <th>Solucionado</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="text-center">
+                                                <tr>
+                                                    <td>CRISTIAN</td>
+                                                    <td>CRISTIAN@GMAIL.COM</td>
+                                                    <td>5566778899</td>
+                                                    <td>PRO</td>
+                                                    <td>Suweb</td>
+                                                    <td>
+                                                        <input class="form-check-input" type="checkbox" value="" id="customckeck2" checked>
+                                                    </td>
+                                                    <td>
+                                                        <input class="form-check-input" type="checkbox" value="" id="customckeck2">
+                                                    </td>
+                                                    <td>
+                                                        <input class="form-check-input" type="checkbox" value="" id="customckeck2">
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
