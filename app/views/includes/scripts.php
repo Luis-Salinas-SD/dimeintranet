@@ -24,3 +24,8 @@
 
     <script src="../../../public/js/pages/tabledit.init.js"></script>
     <script src="../../libs/jquery-tabledit/jquery.tabledit.min.js"></script>
+
+    <!-- Morris.js -->
+    <script src="../../libs/morris.js06/morris.esm.js"></script>
+    <script src="../../libs/raphael/raphael.min.js"></script>
+    <script src="../../../public/js/pages/morris.init.js"></script>
