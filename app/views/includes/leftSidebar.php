@@ -308,7 +308,7 @@
                             </li>
                             <li class="d-inline-flex col-12">
                                 <i class="pt-2  mdi mdi-file-table-outline"></i>
-                                <a href="../pages/reportConta.php">Contabilidad</a>
+                                <a href="../pages/reportConta.php">Solicitudes</a>
                             </li>
                         </ul>
                     </div>
@@ -324,11 +324,11 @@
                         <ul class="nav-second-level">
                             <li class="d-inline-flex col-12">
                                 <i class="pt-1 mdi mdi-18px mdi-cart-outline"></i>
-                                <a href="contacts-list.html">Productos</a>
+                                <a href="../pages/productos.php">Productos</a>
                             </li>
                             <li class="d-inline-flex col-12">
                                 <i class="pt-1  mdi mdi-18px mdi-view-grid-plus"></i>
-                                <a href="contacts-list.html">Categorías productos</a>
+                                <a href="../pages/productoCategory.php">Categorías productos</a>
                             </li>
                         </ul>
                     </div>
