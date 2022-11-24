@@ -21,7 +21,6 @@
     <script src="../../libs/pdfmake/build/vfs_fonts.js"></script>
     <!-- Datatables -->
     <script src="../../../public/js/pages/datatables.init.js"></script>
-
     <script src="../../../public/js/pages/tabledit.init.js"></script>
     <script src="../../libs/jquery-tabledit/jquery.tabledit.min.js"></script>
 

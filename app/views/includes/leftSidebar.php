@@ -296,19 +296,19 @@
                         <ul class="nav-second-level">
                             <li class="d-inline-flex col-12">
                                 <i class="pt-2 fas fa-dolly"></i>
-                                <a href="contacts-list.html">Pedidos</a>
+                                <a href="../pages/reportPedidos.php">Pedidos</a>
                             </li>
                             <li class="d-inline-flex col-12">
                                 <i class="pt-2  mdi mdi-dot-net"></i>
-                                <a href="contacts-list.html">Dominios</a>
+                                <a href="../pages/reportDominios.php">Dominios</a>
                             </li>
                             <li class="d-inline-flex col-12">
                                 <i class="pt-2 mdi mdi-file-document-edit-outline"></i>
-                                <a href="contacts-list.html">Cotizaciones</a>
+                                <a href="../pages/reportConta.php">Cotizaciones</a>
                             </li>
                             <li class="d-inline-flex col-12">
                                 <i class="pt-2  mdi mdi-file-table-outline"></i>
-                                <a href="contacts-list.html">Contabilidad</a>
+                                <a href="../pages/reportConta.php">Contabilidad</a>
                             </li>
                         </ul>
                     </div>

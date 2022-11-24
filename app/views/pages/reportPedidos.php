@@ -106,6 +106,7 @@
     <?php include('../includes/rightbar.php') ?>
     <!--Scripts  -->
     <?php include('../includes/scriptsDashboard.php'); ?>
+    <?php include('../includes/scripts.php'); ?>
 </body>
 
 </html>
