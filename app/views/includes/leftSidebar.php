@@ -348,11 +348,11 @@
                             </li>
                             <li class="d-inline-flex col-12">
                                 <i class="pt-1  mdi mdi-18px mdi-file-chart"></i>
-                                <a href="contacts-list.html">Cuentas contables</a>
+                                <a href="../pages/cuentasContables.php">Cuentas contables</a>
                             </li>
                             <li class="d-inline-flex col-12">
                                 <i class="pt-1  mdi mdi-18px mdi-account-cash-outline"></i>
-                                <a href="contacts-list.html">Datos bancarios</a>
+                                <a href="../pages/datosBancarios.php">Datos bancarios</a>
                             </li>
                         </ul>
                     </div>
