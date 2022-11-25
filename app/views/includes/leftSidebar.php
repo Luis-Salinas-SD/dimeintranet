@@ -344,7 +344,7 @@
                         <ul class="nav-second-level">
                             <li class="d-inline-flex col-12">
                                 <i class="pt-1 mdi mdi-18px mdi-bank"></i>
-                                <a href="contacts-list.html">Reporte Bancos</a>
+                                <a href="../pages/contabilidadBancos.php">Reporte Bancos</a>
                             </li>
                             <li class="d-inline-flex col-12">
                                 <i class="pt-1  mdi mdi-18px mdi-file-chart"></i>
