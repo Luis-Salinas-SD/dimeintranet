@@ -127,8 +127,62 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4 px-3 bg-success">
-                                DEPOSITO EN DOLARES AMERICANOS
+                            <div class="col-4 px-3">
+                                <div class="card">
+                                    <div class="m-2 body-primary">
+                                        <div class="box box-primary">
+                                            <div>
+                                                <h3 class="box-title">DEPOSITO EN DOLARES AMERICANOS</h3>
+                                            </div>
+                                            <div class="box-body">
+                                                <div class="my-2">
+                                                    <label for="bancoint" class="form-label">Banco Intermediario</label>
+                                                    <input placeholder="Banco Intermediario" class="form-control" name="bancoint" type="text" value="" id="bancoint">
+                                                </div>
+                                                <div class="my-2">
+                                                    <label for="plaza" class="form-label">Plaza</label>
+                                                    <input placeholder="Plaza" class="form-control" name="plaza" type="text" value="" id="plaza">
+                                                </div>
+                                                <div class="my-2">
+                                                    <label for="aba" class="form-label">ABA</label>
+                                                    <input placeholder="ABA" class="form-control" name="aba" type="text" value="" id="aba">
+                                                </div>
+                                                <div class="my-2">
+                                                    <label for="swift" class="form-label">SWIFT</label>
+                                                    <input placeholder="SWIFT" class="form-control" name="swift" type="text" value="" id="swift">
+                                                </div>
+                                                <div class="my-2">
+                                                    <label for="bbeneficiaro" class="form-label">Banco Beneficiario</label>
+                                                    <input placeholder="Banco Beneficiario" class="form-control" name="bbeneficiaro" type="text" value="" id="bbeneficiaro">
+                                                </div>
+                                                <div class="my-2">
+                                                    <label for="cbeneficiario" class="form-label">Cuenta Banco Beneficiario</label>
+                                                    <input placeholder="Cuenta Banco Beneficiario" class="form-control" name="cbeneficiario" type="text" value="" id="cbeneficiario">
+                                                </div>
+                                                <div class="my-2">
+                                                    <label for="beneficiariousd" class="form-label">Beneficiario</label>
+                                                    <input placeholder="Beneficiario" class="form-control" name="beneficiariousd" type="text" value="" id="beneficiariousd">
+                                                </div>
+                                                <div class="my-2">
+                                                    <label for="clabeusd" class="form-label">CLABE</label>
+                                                    <input placeholder="CLABE" class="form-control" name="clabeusd" type="text" value="" id="clabeusd">
+                                                </div>
+                                                <div class="form-check my-2 form-check-success">
+                                                    <label for="enviar" class="form-label">Mostar en Envio de Datos Bancarios</label>
+                                                    <input class="form-check-input rounded-circle" type="checkbox" value="" id="customckeck11" checked="">
+                                                </div>
+                                                <div class="my-2">
+                                                    <input type="file" class="form-control">
+                                                </div>
+
+                                                <div class="text-center">
+                                                    <input class="btn btn-primary" type="submit">
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </section>
                     </div>
