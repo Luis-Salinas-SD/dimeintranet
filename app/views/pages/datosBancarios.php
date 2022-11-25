@@ -22,9 +22,9 @@
                 <div class="container-fluid">
                     <div class="row">
                         <h1>Datos Bancarios</h1>
-                        <button type="button" class="btn btn-success waves-effect waves-light col-4  col-md-2 col-sm-4 m-2" data-bs-toggle="modal" data-bs-target="#con-close-modal">
+                        <a href="./datosBancarios-edit.php" class="btn btn-success waves-effect waves-light col-4  col-md-2 col-sm-4 m-2">
                             Nuevos Datos Bancarios
-                        </button>
+                        </a>
                         <!-- Modal Formulario init -->
                         <div id="con-close-modal" class="modal fade" tabindex="-1" aria-labelledby="myModalLabel" style="display: none;" aria-hidden="true">
                             <div class="modal-dialog modal-xl">
