@@ -374,7 +374,7 @@
                                 <div class="collapse" id="submenuAdmin2">
                                     <ul class="nav-second-level">
                                         <li>
-                                            <a href="#">Productos y Servicios SAT</a>
+                                            <a href="../pages/productoServSat.php">Productos y Servicios SAT</a>
                                         </li>
                                         <li>
                                             <a href="#">Impuesto</a>

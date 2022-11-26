@@ -33,19 +33,15 @@
                                         <table class="table mb-0">
                                             <thead class="table-dark">
                                                 <tr>
-                                                    <th>#</th>
-                                                    <th>Banco</th>
-                                                    <th>Cuenta</th>
-                                                    <th>Beneficiario</th>
+                                                    <th>Código</th>
+                                                    <th>Nombre de Producto / Servicio </th>
                                                     <th>Acciones</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <th>1 </th>
-                                                    <td>Banco</td>
-                                                    <td>747587634652858 </td>
-                                                    <td>Juan Peréz</td>
+                                                    <th>82121500 </th>
+                                                    <td>IMPRESIÓN</td>
                                                     <td>
                                                         <a href="./datosBancarios-edit.php" class="btn btn-info waves-effect waves-light">
                                                             <i class="fa fa-edit"></i>
