@@ -395,31 +395,31 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="../pages/empresas.php" data-bs-toggle="collapse">
+                                <a href="../pages/empresas.php">
                                     <i class="pt-1 mdi-18px mdi mdi-office-building-outline"></i>
                                     Empresas
                                 </a>
                             </li>
                             <li>
-                                <a href="#" data-bs-toggle="collapse">
+                                <a href="#">
                                     <i class="pt-1 mdi-18px mdi mdi-book-clock-outline"></i>
                                     Divisiones
                                 </a>
                             </li>
                             <li>
-                                <a href="#" data-bs-toggle="collapse">
+                                <a href="#">
                                     <i class="pt-2 fa-1x  fas fa-user-friends"></i>
                                     Usuarios
                                 </a>
                             </li>
                             <li>
-                                <a href="#" data-bs-toggle="collapse">
+                                <a href="#">
                                     <i class="pt-2 fa-1x fas  fas fa-layer-group"></i>
                                     Grupos
                                 </a>
                             </li>
                             <li>
-                                <a href="#" data-bs-toggle="collapse">
+                                <a href="#">
                                     <i class="pt-1 mdi-18px mdi mdi-block-helper"></i>
                                     Permisos
                                 </a>

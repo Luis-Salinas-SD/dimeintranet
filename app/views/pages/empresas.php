@@ -22,45 +22,46 @@
                 <div class="container-fluid">
                     <div class="row">
                         <h1>Empresas</h1>
-                        <a href="./addEmpresa.php" type="button" class="btn btn-success waves-effect waves-light col-4  col-md-2 col-sm-4 m-2" data-bs-toggle="modal" data-bs-target="#con-close-modal">
+                        <a href="./addEmpresa.php" class="btn btn-success waves-effect waves-light col-4  col-md-2 col-sm-4 m-2">
                             Nueva Empresa
                         </a>
                         <!-- Filtros search init-->
                         <div class="col-lg-12">
                             <div class="card">
                                 <div class="card-body">
-
-                                    <div class="table-responsive">
-                                        <table class="table mb-0">
-                                            <thead class="table-dark">
-                                                <tr>
-                                                    <th>Razón Social</th>
-                                                    <th>RFC</th>
-                                                    <th>Email</th>
-                                                    <th>Teléfono</th>
-                                                    <th>Acciones</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <th>ROBERTO MEJIA CAMPIRAN </th>
-                                                    <td>MECR860327P61</td>
-                                                    <td>facturas@dime.pro </td>
-                                                    <td>7222145513</td>
-                                                    <th>
-                                                        <a data-bs-toggle="tooltip" title="Detalles" class="btn btn-success" href="./rfc-details.php">
-                                                            <i class="fa fa-eye"></i>
-                                                        </a>
-                                                        <a data-bs-toggle="tooltip" title="Editar" class="btn btn-info" href="./addEmpresa.php">
-                                                            <i class="fa fa-edit"></i>
-                                                        </a>
-                                                        <a data-bs-toggle="tooltip" title="Desactivar" href="#" class="btn btn-danger">
-                                                            <i class="fa fa-ban"></i>
-                                                        </a>
-                                                    </th>
-                                                </tr>
-                                            </tbody>
-                                        </table>
+                                    <div class="row">
+                                        <div class="table-responsive">
+                                            <table class="table mb-0">
+                                                <thead class="table-dark">
+                                                    <tr>
+                                                        <th>Razón Social</th>
+                                                        <th>RFC</th>
+                                                        <th>Email</th>
+                                                        <th>Teléfono</th>
+                                                        <th>Acciones</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th>ROBERTO MEJIA CAMPIRAN </th>
+                                                        <td>MECR860327P61</td>
+                                                        <td>facturas@dime.pro </td>
+                                                        <td>7222145513</td>
+                                                        <th>
+                                                            <a data-bs-toggle="tooltip" title="Detalles" class="btn btn-success" href="./empresa-details.php">
+                                                                <i class="fa fa-eye"></i>
+                                                            </a>
+                                                            <a data-bs-toggle="tooltip" title="Editar" class="btn btn-info" href="./addEmpresa.php">
+                                                                <i class="fa fa-edit"></i>
+                                                            </a>
+                                                            <a data-bs-toggle="tooltip" title="Desactivar" href="#" class="btn btn-danger">
+                                                                <i class="fa fa-ban"></i>
+                                                            </a>
+                                                        </th>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
                                     </div>
 
                                 </div>
