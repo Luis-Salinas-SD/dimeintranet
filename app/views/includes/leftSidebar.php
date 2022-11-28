@@ -377,19 +377,19 @@
                                             <a href="../pages/productoServSat.php">Productos y Servicios SAT</a>
                                         </li>
                                         <li>
-                                            <a href="#">Impuesto</a>
+                                            <a href="../pages/impuestos.php">Impuesto</a>
                                         </li>
                                         <li>
-                                            <a href="#">Uso de CFDI</a>
+                                            <a href="../pages/usoCFDI.php">Uso de CFDI</a>
                                         </li>
                                         <li>
-                                            <a href="#">Formas de pago</a>
+                                            <a href="../pages/formasPago.php">Formas de pago</a>
                                         </li>
                                         <li>
-                                            <a href="#">Métodos de pago</a>
+                                            <a href="../pages/metodosPago.php">Métodos de pago</a>
                                         </li>
                                         <li>
-                                            <a href="#">Unidad de</a>
+                                            <a href="../pages/unidadMedida.php">Unidad de Medida</a>
                                         </li>
                                     </ul>
                                 </div>
