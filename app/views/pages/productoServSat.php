@@ -22,9 +22,9 @@
                 <div class="container-fluid">
                     <div class="row">
                         <h1>Productos Y Servicios del SAT</h1>
-                        <a href="./datosBancarios-edit.php" class="btn btn-success waves-effect waves-light col-4  col-md-2 col-sm-4 m-2">
+                        <button class="btn btn-success waves-effect waves-light col-4  col-md-2 col-sm-4 m-2" data-bs-toggle="modal" data-bs-target="#satModal">
                             Agregar Producto/Servicio SAT
-                        </a>
+                        </button>
                         <!-- Filtros search init-->
                         <div class="col-lg-12">
                             <div class="card">
@@ -43,9 +43,12 @@
                                                     <th>82121500 </th>
                                                     <td>IMPRESIÓN</td>
                                                     <td>
-                                                        <a href="./datosBancarios-edit.php" class="btn btn-info waves-effect waves-light">
+                                                        <button class="btn btn-info waves-effect waves-light" data-bs-toggle="modal" data-bs-target="#satModal">
                                                             <i class="fa fa-edit"></i>
-                                                        </a>
+                                                        </button>
+                                                        <button class="btn btn-danger waves-effect waves-light" data-bs-toggle="tooltip" title="Desactivar">
+                                                            <i class="mdi mdi-block-helper"></i>
+                                                        </button>
                                                     </td>
                                                 </tr>
                                             </tbody>
@@ -55,6 +58,34 @@
                             </div>
                         </div>
                         <!-- Filtros search fin-->
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="satModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Registro de Productos Servicios del SAT</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form action="">
+                                            <div class="mb-3">
+                                                <label for="" class="form-label">Código del Producto o Servicio</label>
+                                                <input type="text" name="" id="" class="form-control" placeholder="Código">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="" class="form-label">Nombre del Producto o Servicio</label>
+                                                <input type="text" name="" id="" class="form-control" placeholder="Nombre">
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                                        <button type="button" class="btn btn-success">Enviar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
