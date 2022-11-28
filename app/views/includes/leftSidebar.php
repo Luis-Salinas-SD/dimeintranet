@@ -395,7 +395,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="#" data-bs-toggle="collapse">
+                                <a href="../pages/empresas.php" data-bs-toggle="collapse">
                                     <i class="pt-1 mdi-18px mdi mdi-office-building-outline"></i>
                                     Empresas
                                 </a>
