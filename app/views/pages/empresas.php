@@ -22,9 +22,9 @@
                 <div class="container-fluid">
                     <div class="row">
                         <h1>Empresas</h1>
-                        <button type="button" class="btn btn-success waves-effect waves-light col-4  col-md-2 col-sm-4 m-2" data-bs-toggle="modal" data-bs-target="#con-close-modal">
+                        <a href="./addEmpresa.php" type="button" class="btn btn-success waves-effect waves-light col-4  col-md-2 col-sm-4 m-2" data-bs-toggle="modal" data-bs-target="#con-close-modal">
                             Nueva Empresa
-                        </button>
+                        </a>
                         <!-- Filtros search init-->
                         <div class="col-lg-12">
                             <div class="card">
@@ -51,7 +51,7 @@
                                                         <a data-bs-toggle="tooltip" title="Detalles" class="btn btn-success" href="./rfc-details.php">
                                                             <i class="fa fa-eye"></i>
                                                         </a>
-                                                        <a data-bs-toggle="tooltip" title="Editar" class="btn btn-info" href="./rfc-edit.php">
+                                                        <a data-bs-toggle="tooltip" title="Editar" class="btn btn-info" href="./addEmpresa.php">
                                                             <i class="fa fa-edit"></i>
                                                         </a>
                                                         <a data-bs-toggle="tooltip" title="Desactivar" href="#" class="btn btn-danger">
