@@ -401,7 +401,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="../pages/division.php">
                                     <i class="pt-1 mdi-18px mdi mdi-book-clock-outline"></i>
                                     Divisiones
                                 </a>
