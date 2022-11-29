@@ -4,8 +4,7 @@
 
 <!-- body start -->
 
-<body class="loading"
-    data-layout='{"mode": "light", "width": "fluid", "menuPosition": "fixed", "sidebar": { "color": "light", "size": "default", "showuser": true}, "topbar": {"color": "light"}, "showRightSidebarOnPageLoad": true}'>
+<body class="loading" data-layout='{"mode": "light", "width": "fluid", "menuPosition": "fixed", "sidebar": { "color": "light", "size": "default", "showuser": true}, "topbar": {"color": "light"}, "showRightSidebarOnPageLoad": true}'>
 
     <!-- Begin page -->
     <div id="wrapper">
@@ -21,8 +20,7 @@
         <div class="content-page">
             <div class="content">
                 <h1>O.C Suspendidas</h1>
-                <a href="../pages/nuevaOrden.php" class="btn btn-success waves-effect waves-light mb-2"><span
-                        class="btn-label"><i class="fe-file-plus"></i></span>Generar una nueva orden</a>
+                <a href="../pages/nuevaOrden.php" class="btn btn-success waves-effect waves-light mb-2"><span class="btn-label"><i class="fe-file-plus"></i></span>Generar una nueva orden</a>
 
                 <!-- Tabla  -->
                 <div class="col-lg-12">
@@ -48,8 +46,7 @@
                                             <td>$11,020.00</td>
                                             <td>$5,700.00 </td>
                                             <th>
-                                                <a data-bs-toggle="tooltip" title="" href="#" class="btn btn-info"
-                                                    data-bs-original-title="Detalles">
+                                                <a data-bs-toggle="tooltip" title="" href="./ordenCompra-details.php" class="btn btn-info" data-bs-original-title="Detalles">
                                                     <i class="fa fa-eye mx-2"></i> Detalles
                                                 </a>
                                             </th>

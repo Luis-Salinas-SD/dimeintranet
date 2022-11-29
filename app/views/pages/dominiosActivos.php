@@ -84,7 +84,7 @@
                                                         </label>
                                                     </td>
                                                     <td>
-                                                        <a data-bs-toggle="tooltip" title="Detalles" href="#" class="btn btn-info">
+                                                        <a data-bs-toggle="tooltip" title="Detalles" href="./dominio-details.php" class="btn btn-info">
                                                             <i class="fa fa-eye"></i>
                                                         </a>
                                                     </td>

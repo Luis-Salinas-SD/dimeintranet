@@ -23,6 +23,7 @@
                     <div class="row">
                         <div class="card">
                             <div class="card-body">
+                                <h1>Orden de Compra</h1>
                                 <div class="table-responsive">
                                     <table class="table table-bordered table-hover table-striped">
                                         <tbody>

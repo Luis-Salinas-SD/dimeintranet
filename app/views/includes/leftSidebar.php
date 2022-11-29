@@ -419,7 +419,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="../pages/permisos.php">
                                     <i class="pt-1 mdi-18px mdi mdi-block-helper"></i>
                                     Permisos
                                 </a>
