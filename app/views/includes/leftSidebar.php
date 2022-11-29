@@ -413,7 +413,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="../pages/grupos.php">
                                     <i class="pt-2 fa-1x fas  fas fa-layer-group"></i>
                                     Grupos
                                 </a>

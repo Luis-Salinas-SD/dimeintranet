@@ -24,5 +24,10 @@
     <link href="../../libs/datatables.net-responsive-bs5/css/responsive.bootstrap5.min.css" rel="stylesheet" type="text/css" />
     <link href="../../libs/datatables.net-buttons-bs5/css/buttons.bootstrap5.min.css" rel="stylesheet" type="text/css" />
     <link href="../../libs/datatables.net-select-bs5/css//select.bootstrap5.min.css" rel="stylesheet" type="text/css" />
-
+    <!-- Select -->
+    <link href="../../libs/mohithg-switchery/switchery.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../libs/multiselect/css/multi-select.css" rel="stylesheet" type="text/css" />
+    <link href="../../libs/select2/css/select2.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../libs/selectize/css/selectize.bootstrap3.css" rel="stylesheet" type="text/css" />
+    <link href="../../libs/bootstrap-touchspin/jquery.bootstrap-touchspin.min.css" rel="stylesheet" type="text/css" />
 </head>
