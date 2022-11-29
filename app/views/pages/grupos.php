@@ -49,7 +49,7 @@
                                                         <a href="./grupo-details.php" title="Detalles" class="btn btn-success" data-bs-toggle="tooltip">
                                                             <i class="mdi mdi-eye-outline"></i>
                                                         </a>
-                                                        <a href="./addDivision.php" title="Editar" class="btn btn-info" data-bs-toggle="tooltip">
+                                                        <a href="./addGrupo.php" title="Editar" class="btn btn-info" data-bs-toggle="tooltip">
                                                             <i class="mdi mdi-lead-pencil"></i>
                                                         </a>
                                                         <a title="Desactivar" class="btn btn-danger" data-bs-toggle="tooltip">

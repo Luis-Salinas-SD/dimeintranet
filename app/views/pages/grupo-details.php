@@ -61,6 +61,39 @@
                                                 </tr>
                                             </tbody>
                                         </table>
+                                        <hr>
+                                        <h4>Usuarios Registrados en Este Grupo</h4>
+                                        <br>
+
+                                        <table class="table table-bordered table-hover table-striped text-center">
+                                            <thead>
+                                                <tr>
+                                                    <th>Nombre</th>
+                                                    <th>Email</th>
+                                                    <th>Acción</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Julio Gallarza</td>
+                                                    <td>no@estaactivoparasiempre.com</td>
+                                                    <td>
+                                                        <a data-toggle="tooltip" data-placement="top" data-original-title="Eliminar Usuario de Este Grupo" href="" class="btn btn-danger delete">
+                                                            <i class="mdi mdi-delete"></i>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Luis Angel</td>
+                                                    <td>operacionesdelete@dime.pro</td>
+                                                    <td>
+                                                        <a data-toggle="tooltip" data-placement="top" data-original-title="Eliminar Usuario de Este Grupo" href="" class="btn btn-danger delete">
+                                                            <i class="mdi mdi-delete"></i>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
                             </div>
