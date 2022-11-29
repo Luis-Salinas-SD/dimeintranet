@@ -49,7 +49,7 @@
                                                     <td>5@5.com</td>
                                                     <td>22 DE ABRIL DE 2016</td>
                                                     <td>
-                                                        <a href="./division-edit.php" title="Detalles" class="btn btn-secondary" data-bs-toggle="tooltip">
+                                                        <a href="./user-details.php" title="Detalles" class="btn btn-secondary" data-bs-toggle="tooltip">
                                                             <i class="mdi mdi-eye-outline"></i>
                                                         </a>
                                                         <a href="./addUser.php" title="Editar" class="btn btn-info" data-bs-toggle="tooltip">
