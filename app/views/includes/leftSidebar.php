@@ -407,7 +407,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="../pages/usuarios.php">
                                     <i class="pt-2 fa-1x  fas fa-user-friends"></i>
                                     Usuarios
                                 </a>
