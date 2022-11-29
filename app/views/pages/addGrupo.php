@@ -32,20 +32,19 @@
                                                     <input type="text" name="" id="" class="form-control" placeholder="Nombre del Grupo">
                                                 </div>
                                                 <div class="mb-3">
-                                                    <label for="select-code-language" class="form-label">Dropdown Header</label>
-                                                    <select id="select-code-language" class="selectize-drop-header" placeholder="Select a language...">
-                                                        <option value="txt">Text</option>
-                                                        <option value="md">Markdown</option>
-                                                        <option value="html">HTML</option>
-                                                        <option value="php">PHP</option>
-                                                        <option value="python">Python</option>
-                                                        <option value="java">Java</option>
-                                                        <option value="js" selected>JavaScript</option>
-                                                        <option value="c#">Ruby</option>
-                                                        <option value="c#">VHDL</option>
-                                                        <option value="c#">Verilog</option>
-                                                        <option value="c#">C#</option>
-                                                        <option value="c++">C/C++</option>
+                                                    <label for="" class="form-label">Permisos</label>
+                                                    <select class="form-control" data-toggle="select2" data-width="100%">
+                                                        <option>- Seleccione una opción -</option>
+                                                        <optgroup label="Dashboard">
+                                                            <option value="AK">Option</option>
+                                                            <option value="HI">Option</option>
+                                                        </optgroup>
+                                                        <optgroup label="Usuario">
+                                                            <option value="CA">Option</option>
+                                                            <option value="NV">Option</option>
+                                                            <option value="OR">Option</option>
+                                                            <option value="WA">Option</option>
+                                                        </optgroup>
                                                     </select>
                                                 </div>
 
@@ -73,23 +72,23 @@
                                                                 <table class="table table-bordered table-hover table-striped animated fadeInUp">
                                                                     <tbody>
                                                                         <tr>
-                                                                            <td> <strong>División :</strong> Dime.com.mx</td>
+                                                                            <td> <strong>Grupo :</strong> Administrador</td>
                                                                             <td> <strong><abbr class="timeago" title="2020-03-02 14:36:40">Hace 3 años</abbr></strong></td>
                                                                         </tr>
                                                                         <tr>
-                                                                            <td> <strong>División :</strong> Renta Un Drone</td>
+                                                                            <td> <strong>Grupo :</strong> Operador</td>
                                                                             <td> <strong><abbr class="timeago" title="2019-02-26 20:45:47">Hace 4 años</abbr></strong></td>
                                                                         </tr>
                                                                         <tr>
-                                                                            <td> <strong>División :</strong> Mi 360</td>
+                                                                            <td> <strong>Grupo :</strong> Acciones Geneales</td>
                                                                             <td> <strong><abbr class="timeago" title="2019-02-22 20:36:29">Hace 4 años</abbr></strong></td>
                                                                         </tr>
                                                                         <tr>
-                                                                            <td> <strong>División :</strong> Imprenta</td>
+                                                                            <td> <strong>Grupo :</strong> Administrador</td>
                                                                             <td> <strong><abbr class="timeago" title="2018-09-04 12:29:39">Hace 4 años</abbr></strong></td>
                                                                         </tr>
                                                                         <tr>
-                                                                            <td> <strong>División :</strong> Mi sistema</td>
+                                                                            <td> <strong>Grupo :</strong> Operador</td>
                                                                             <td> <strong><abbr class="timeago" title="2018-01-16 12:05:05">Hace 5 años</abbr></strong></td>
                                                                         </tr>
                                                                     </tbody>

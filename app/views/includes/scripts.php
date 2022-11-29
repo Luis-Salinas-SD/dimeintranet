@@ -28,7 +28,6 @@
     <script src="../../libs/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js"></script>
     <script src="../../libs/bootstrap-maxlength/bootstrap-maxlength.min.js"></script>
     <!-- Init js-->
-    <script src="../../../public/js/pages/form-advanced.init.js"></script>
 
 
     <!-- Morris.js -->

@@ -46,7 +46,7 @@
                                                     <td>Dime</td>
                                                     <td>2017-01-03 14:11:53 </td>
                                                     <td>
-                                                        <a href="./division-edit.php" title="Detalles" class="btn btn-success" data-bs-toggle="tooltip">
+                                                        <a href="./grupo-details.php" title="Detalles" class="btn btn-success" data-bs-toggle="tooltip">
                                                             <i class="mdi mdi-eye-outline"></i>
                                                         </a>
                                                         <a href="./addDivision.php" title="Editar" class="btn btn-info" data-bs-toggle="tooltip">
