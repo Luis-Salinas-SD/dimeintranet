@@ -56,7 +56,7 @@
                                                     </td>
                                                     <td>Video y Fotografía Aerea </td>
                                                     <td>
-                                                        <a data-toggle="tooltip" data-placement="top" data-original-title="Editar" href="#" class="btn btn-info">
+                                                        <a data-toggle="tooltip" data-placement="top" data-original-title="Editar" href="./mBanner-edit.php" class="btn btn-info">
                                                             <i class="fa fa-edit"></i>
                                                         </a>
 
