@@ -173,19 +173,37 @@
                                         </div>
                                     </div>
                                 </section>
-                                <section class="d-flex">
-                                    <div class="col-xl-3 col-12 col-md-6">
+                                <section class="d-flex flex-wrap">
+                                    <!-- Suweb -->
+                                    <div class="col-xl-3 col-12 col-md-6 px-2">
                                         <h3>Suweb</h3>
                                         <hr>
                                         <div class="border-start border-success border-4 px-2">
-                                            <h3>Dominios Activos (125)</h3>
+                                            <h4>Dominios Activos (125)</h4>
+                                            <h4>Dominios por Vencer (2)</h4>
+                                            <h4> Dominios Vencidos ( 14 )</h4>
+                                            <h3 class="text-center">$33,431.20</h3>
                                         </div>
                                     </div>
-                                    <div class="col-xl-3 col-12 col-md-6">
-                                        Cotizaciones
+                                    <!-- Cotizaciones -->
+                                    <div class="col-xl-3 col-12 col-md-6 px-2">
+                                        <h3>Cotizaciones</h3>
+                                        <hr>
+                                        <div class="border-start border-success border-4 px-2">
+                                            <h4>Dominios Activos (125)</h4>
+                                            <h4>Dominios por Vencer (2)</h4>
+                                            <h4> Dominios Vencidos ( 14 )</h4>
+                                        </div>
                                     </div>
-                                    <div class="col-xl-3 col-12 col-md-6">
-                                        Solicitudes
+                                    <!-- Solicitudes -->
+                                    <div class="col-xl-3 col-12 col-md-6 px-2">
+                                        <h3>Solicitudes</h3>
+                                        <hr>
+                                        <div class="border-start border-success border-4 px-2">
+                                            <h4>Dominios Activos (125)</h4>
+                                            <h4>Dominios por Vencer (2)</h4>
+                                            <h4> Dominios Vencidos ( 14 )</h4>
+                                        </div>
                                     </div>
                                 </section>
                             </div>

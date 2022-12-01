@@ -73,7 +73,7 @@
                                     </form>
                                     <br>
                                     <div class="render">
-                                        <h1>Grafica</h1>
+
                                     </div>
                                 </div>
 
