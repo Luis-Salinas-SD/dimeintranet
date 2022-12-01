@@ -15,6 +15,7 @@ if (checkbox) {
 let validarDivision = document.getElementById('selectDiv');
 let validarClient = document.getElementById('selectClient');
 
+
 let index
 let valor = '';
 let index2

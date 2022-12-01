@@ -82,7 +82,7 @@
                                                 <div class="col-md-12" id="token" style="display: none;">
                                                     <div class="mb-3">
                                                         <label for="field-3" class="form-label">Código de credito</label>
-                                                        <input type="text" class="form-control" id="codigo" placeholder="Código de credito">
+                                                        <input type="number" class="form-control" id="codigo" placeholder="Código de credito" required>
                                                     </div>
                                                 </div>
                                             </div>

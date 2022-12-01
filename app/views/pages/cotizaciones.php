@@ -87,44 +87,47 @@
                                                                     <label for="field-1" class="form-label">
                                                                         Nombre de la Empresa
                                                                     </label>
-                                                                    <input type="text" class="form-control" id="field-1" placeholder="Empresa" required>
+                                                                    <input type="text" class="form-control" id="empresa" placeholder="Empresa" required>
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-6">
                                                                 <div class="mb-3">
-                                                                    <label for="field-2" class="form-label">Contacto</label>
-                                                                    <input type="text" class="form-control" id="field-2" placeholder="contacto" required>
+                                                                    <label for="field-2" class="form-label">
+                                                                        Contacto
+                                                                    </label>
+                                                                    <input type="text" class="form-control" id="contact" placeholder="contacto" required>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div class="row">
                                                             <div class="col-md-12">
                                                                 <div class="mb-3">
-                                                                    <label for="field-3" class="form-label">Dirección</label>
-                                                                    <input type="text" class="form-control" id="field-3" placeholder="Dirección" required>
+                                                                    <label for="field-3" class="form-label">
+                                                                        Dirección
+                                                                    </label>
+                                                                    <input type="text" class="form-control" id="direccion" placeholder="Dirección" required>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div class="row">
                                                             <div class="col-md-4">
                                                                 <div class="mb-3">
-                                                                    <label for="field-4" class="form-label">Telefono</label>
-                                                                    <input type="tel" class="form-control" id="field-4" placeholder="Telefono" pattern="[0-9]{10}" required>
+                                                                    <label for="field-4" class="form-label">Teléfono</label>
+                                                                    <input type="tel" class="form-control" id="tel" placeholder="Telefono" pattern="[0-9]{10}" required>
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-4">
                                                                 <div class="mb-3">
                                                                     <label for="field-5" class="form-label">Correo</label>
-                                                                    <input type="email" class="form-control" id="field-5" placeholder="email" required>
+                                                                    <input type="email" class="form-control" id="mail" placeholder="email" required>
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-12">
-                                                                <label for="example-select" class="form-label">Tipo de
-                                                                    cliente</label>
-                                                                <select class="form-select" id="example-select">
-                                                                    <option disabled selected>
-                                                                        Selecciona un Tipo de Cliente
-                                                                    </option>
+                                                                <label for="example-select" class="form-label">
+                                                                    Tipo de cliente
+                                                                </label>
+                                                                <select class="form-select" id="tipo-cliente">
+                                                                    <option disabled selected>Selecciona un Tipo de Cliente</option>
                                                                     <option>Propecto</option>
                                                                     <option>Cliente</option>
                                                                 </select>
@@ -132,7 +135,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="modal-footer">
-                                                        <button type="submit" class="btn btn-primary waves-effect waves-light">Guardar</button>
+                                                        <button type="submit" class="btn btn-success waves-effect waves-light">Guardar</button>
                                                     </div>
                                                 </form>
                                             </div>
