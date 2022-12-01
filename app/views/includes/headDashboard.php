@@ -30,4 +30,6 @@
     <link href="../../libs/select2/css/select2.min.css" rel="stylesheet" type="text/css" />
     <link href="../../libs/selectize/css/selectize.bootstrap3.css" rel="stylesheet" type="text/css" />
     <link href="../../libs/bootstrap-touchspin/jquery.bootstrap-touchspin.min.css" rel="stylesheet" type="text/css" />
+    <!-- Chartjs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js"></script>
 </head>

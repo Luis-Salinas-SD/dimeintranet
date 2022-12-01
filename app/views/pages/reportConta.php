@@ -73,7 +73,7 @@
                                     </form>
                                     <br>
                                     <div class="render">
-
+                                        <canvas id="grafica" width="500"></canvas>
                                     </div>
                                 </div>
 
@@ -92,6 +92,9 @@
     <?php include('../includes/rightbar.php') ?>
     <!--Scripts  -->
     <?php include('../includes/scriptsDashboard.php'); ?>
+    <!-- Chartsjs -->
+    <script src="./script.js"></script>
+
 </body>
 
 </html>

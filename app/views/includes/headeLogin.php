@@ -21,4 +21,6 @@
     <link rel="stylesheet" href="../../libs/sweetalert2/sweetalert2.min.css">
     <!-- Select -->
     <link href="../../libs/select2/css/select2.min.css" rel="stylesheet" type="text/css">
+    <!-- Chartjs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js"></script>
 </head>
