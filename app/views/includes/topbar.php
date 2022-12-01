@@ -59,7 +59,7 @@
         <li class="dropdown notification-list topbar-dropdown">
             <a class="nav-link dropdown-toggle waves-effect waves-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
                 <i class="fe-bell noti-icon"></i>
-                <span class="badge bg-danger rounded-circle noti-icon-badge">666</span>
+                <span class="badge bg-danger rounded-circle noti-icon-badge">99+</span>
             </a>
             <div class="dropdown-menu dropdown-menu-end dropdown-lg">
 
@@ -68,9 +68,9 @@
                     <h5 class="m-0">
                         <span class="float-end">
                             <a href="" class="text-dark">
-                                <small>Clear All</small>
+                                <small>Limpiar</small>
                             </a>
-                        </span>Notification
+                        </span>Notificaciones
                     </h5>
                 </div>
 
@@ -121,7 +121,7 @@
 
                 <!-- All-->
                 <a href="javascript:void(0);" class="dropdown-item text-center text-primary notify-item notify-all">
-                    View all
+                    Ver más
                     <i class="fe-arrow-right"></i>
                 </a>
 
