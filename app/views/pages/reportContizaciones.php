@@ -75,7 +75,6 @@
                                     <br>
                                     <div class="render">
                                         <canvas id="grafica" width="500"></canvas>
-                                        <h2>Graficas</h2>
                                     </div>
                                 </div>
 
