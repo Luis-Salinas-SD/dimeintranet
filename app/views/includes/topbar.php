@@ -176,7 +176,7 @@
     <div class="logo-box">
         <a href="index.html" class="logo logo-light text-center">
             <span class="logo-sm">
-                <img src="../../../public/img/logo-sm.png" alt="" height="22">
+                <img src="../../../public/img/favicon.png" alt="" height="22">
             </span>
             <span class="logo-lg">
                 <img src="../../../public/img/familiadime.png" alt="" height="16">
@@ -184,7 +184,7 @@
         </a>
         <a href="index.html" class="logo logo-dark text-center">
             <span class="logo-sm">
-                <img src="../../../public/img/logo-sm.png" alt="" height="22">
+                <img src="../../../public/img/favicon.png" alt="" height="22">
             </span>
             <span class="logo-lg">
                 <img src="../../../public/img/familiadime.png" alt="" height="16">

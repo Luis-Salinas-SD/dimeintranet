@@ -23,8 +23,7 @@
                     <div class="row">
                         <div class="card">
                             <div class="card-body">
-                                <h2>Reporte de Solicitudes</h2>
-
+                                <h2>CotizacionesReporte de Solicitudes</h2>
                                 <div class="panel-body">
                                     <form method="POST" action="" accept-charset="UTF-8" autocomplete="off" id="searchReportes">
                                         <input name="_token" type="hidden" value="">
@@ -77,7 +76,6 @@
                                         <canvas id="grafica" width="500"></canvas>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -93,9 +91,6 @@
     <?php include('../includes/rightbar.php') ?>
     <!--Scripts  -->
     <?php include('../includes/scriptsDashboard.php'); ?>
-    <!-- Chartsjs -->
-    <script src="./script.js"></script>
-
 </body>
 
 </html>

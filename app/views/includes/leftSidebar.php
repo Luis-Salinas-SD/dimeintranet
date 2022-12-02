@@ -304,11 +304,11 @@
                             </li>
                             <li class="d-inline-flex col-12">
                                 <i class="pt-2 mdi mdi-file-document-edit-outline"></i>
-                                <a href="../pages/reportConta.php">Cotizaciones</a>
+                                <a href="../pages/reportContizaciones.php">Cotizaciones</a>
                             </li>
                             <li class="d-inline-flex col-12">
                                 <i class="pt-2 mdi mdi-file-table-outline"></i>
-                                <a href="../pages/reportConta.php">Solicitudes</a>
+                                <a href="../pages/reportSoli.php">Solicitudes</a>
                             </li>
                         </ul>
                     </div>

@@ -30,9 +30,9 @@ let myChart = new Chart(grafica, {
     data: {
         labels: etiquetas,
         datasets: [
+            datosVentas2020,
             datosVentas2021,
-            datosVentas2022,
-            datosVentas2020
+            datosVentas2022
         ]
     },
     options: {
