@@ -104,11 +104,11 @@
                                 <a href="../pages/ocArchivadas.php">O.C Archivadas</a>
                             </li>
                             <li class="d-inline-flex">
-                                <i class="pt-2  fas fa-user-lock"></i>
+                                <i class="pt-2 fas fa-user-lock"></i>
                                 <a href="../pages/ocSuspendidas.php">O.C Suspendidas</a>
                             </li>
                             <li class="d-inline-flex">
-                                <i class="pt-2   fas fa-poll-h"></i>
+                                <i class="pt-2 fas fa-poll-h"></i>
                                 <a href="../pages/proveedores.php">Reportes</a>
                             </li>
                         </ul>
