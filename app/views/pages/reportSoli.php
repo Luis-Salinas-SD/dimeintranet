@@ -72,8 +72,8 @@
                                         </div>
                                     </form>
                                     <br>
-                                    <div class="render">
-                                        <canvas id="grafica" width="500"></canvas>
+                                    <div class="">
+
                                     </div>
                                 </div>
                             </div>
