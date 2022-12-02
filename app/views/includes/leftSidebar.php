@@ -299,7 +299,7 @@
                                 <a href="../pages/reportPedidos.php">Pedidos</a>
                             </li>
                             <li class="d-inline-flex col-12">
-                                <i class="pt-2  mdi mdi-dot-net"></i>
+                                <i class="pt-2 mdi mdi-dot-net"></i>
                                 <a href="../pages/reportDominios.php">Dominios</a>
                             </li>
                             <li class="d-inline-flex col-12">
@@ -307,7 +307,7 @@
                                 <a href="../pages/reportConta.php">Cotizaciones</a>
                             </li>
                             <li class="d-inline-flex col-12">
-                                <i class="pt-2  mdi mdi-file-table-outline"></i>
+                                <i class="pt-2 mdi mdi-file-table-outline"></i>
                                 <a href="../pages/reportConta.php">Solicitudes</a>
                             </li>
                         </ul>
