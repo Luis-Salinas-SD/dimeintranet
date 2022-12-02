@@ -26,21 +26,22 @@
                                 <h2>Reporte de Solicitudes</h2>
 
                                 <div class="panel-body">
-                                    <form method="POST" action="https://midime.com.mx/dime/reportes/cotizaciones" accept-charset="UTF-8" autocomplete="off" id="searchReportes"><input name="_token" type="hidden" value="bs74jH6DtxVrfHsccbZ0xpmcikACz8WscRT5Qg1r">
+                                    <form method="POST" action="" accept-charset="UTF-8" autocomplete="off" id="searchReportes">
+                                        <input name="_token" type="hidden" value="">
                                         <div class="row input-daterange">
                                             <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
                                                 <label form="fechainicial">Fecha Inicial</label>
-                                                <input type="text" class="form-control" name="fechainicial" id="fechainicial">
+                                                <input type="date" class="form-control" name="fechainicial" id="fechainicial">
                                             </div>
                                             <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
                                                 <label form="fechafinal">Fecha Final</label>
-                                                <input type="text" class="form-control" name="fechafinal" id="fechafinal">
+                                                <input type="date" class="form-control" name="fechafinal" id="fechafinal">
                                             </div>
                                             <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
                                                 <br>
                                                 <label class="">
-                                                    <div class="icheckbox_flat-red" aria-checked="false" aria-disabled="false" style="position: relative;">
-                                                        <input class="form-check-input rounded-circle" type="checkbox" value="" id="customckeck11" checked="">
+                                                    <div class="icheckbox_flat-red" aria-checked="false">
+                                                        <input class="form-check-input rounded-circle" type="checkbox" value="" id="" checked="">
                                                     </div>
                                                     Cotización Aceptada
                                                 </label>
@@ -49,7 +50,7 @@
                                                 <br>
                                                 <label>
                                                     <div class="d-flex">
-                                                        <input class="form-check-input rounded-circle" type="checkbox" value="" id="customckeck11" checked="">
+                                                        <input class="form-check-input rounded-circle" type="checkbox" value="" id="" checked="">
                                                     </div>
                                                     Recordatorio
                                                 </label>
@@ -57,8 +58,8 @@
                                             <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
                                                 <br>
                                                 <label>
-                                                    <div class="icheckbox_flat-red" aria-checked="false" aria-disabled="false" style="position: relative;">
-                                                        <input class="form-check-input rounded-circle" type="checkbox" value="" id="customckeck11" checked="">
+                                                    <div class="icheckbox_flat-red" aria-checked="false">
+                                                        <input class="form-check-input rounded-circle" type="checkbox" value="" id="" checked="">
                                                     </div>
                                                     Seguimiento Teléfonico
                                                 </label>
