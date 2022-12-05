@@ -15,7 +15,6 @@ if (isset($_POST['email']) and isset($_POST['password'])) {
 }
 
 //! Validacion para el servidor
-
 /*
 if (isset($_POST['email']) and isset($_POST['password'])) {
     $email = $_POST['email'];
