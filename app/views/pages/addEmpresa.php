@@ -54,6 +54,10 @@
                                                             <label for="pais" class="form-label">País</label>
                                                             <input type="text" id="simpleinput" class="form-control" placeholder="País">
                                                         </div>
+                                                        <div class="mb-3">
+                                                            <label for="CP" class="form-label">Subir Foto de Perfil Empresarial</label>
+                                                            <input type="file" name="" id="" class="form-control">
+                                                        </div>
                                                     </form>
                                                 </div>
                                                 <!-- end col -->
@@ -82,6 +86,10 @@
                                                     <div class="mb-3">
                                                         <label for="CP" class="form-label">Código Postal</label>
                                                         <input type="text" id="" class="form-control" placeholder="Código Postal">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="CP" class="form-label">Subir Logo de Empresa</label>
+                                                        <input type="file" name="" id="" class="form-control">
                                                     </div>
                                                 </div>
                                             </section>

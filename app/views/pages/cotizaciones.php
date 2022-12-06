@@ -285,6 +285,7 @@
                             </div>
                         </div>
                         <!-- Modal Formulario fin -->
+
                         <!-- Filtros search init-->
                         <div class="col-lg-12">
                             <div class="card">
@@ -334,15 +335,17 @@
                                                         <a data-bs-toggle="tooltip" title="Detalles" href="./cotizacion-details.php" class="btn btn-success">
                                                             <i class="fa fa-eye"></i>
                                                         </a>
-                                                        <a title="Editar" class="btn btn-info" data-bs-target="#modalEdit" data-bs-toggle="modal">
-                                                            <i class="fa fa-edit"></i>
+                                                        <a title="Editar" class="btn btn-warning" data-bs-target="#modalEdit" data-bs-toggle="modal">
+                                                            <i class="mdi mdi-card-search-outline"></i>
                                                         </a>
-                                                        <a data-bs-toggle="tooltip" title="Desactivar" class="btn btn-danger">
-                                                            <i class="fa fa-ban"></i>
+                                                        <a data-bs-toggle="tooltip" title="Seguimiento" href="#" class="btn btn-primary">
+                                                            <i class="mdi mdi-chevron-right-circle-outline"></i>
                                                         </a>
-                                                        <a data-bs-toggle="tooltip" title="Correo" class="btn btn-success">
-                                                            <i class="fa far fa-envelope-open"></i>
+                                                        <a data-bs-toggle="tooltip" title="Carrito" href="#" class="btn btn-secondary">
+                                                            <i class="mdi mdi-cart-outline"></i>
                                                         </a>
+
+
                                                     </td>
                                                     <td>
                                                         <div class="form-check mb-2 form-check-dark d-flex justify-content-center">

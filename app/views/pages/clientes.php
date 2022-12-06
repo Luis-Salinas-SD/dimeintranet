@@ -120,30 +120,24 @@
                                     <div class="table-responsive">
                                         <table class="table mb-0">
                                             <thead class="table-dark">
-                                                <tr>
+                                                <tr class="text-center">
                                                     <th>#</th>
                                                     <th>Empresa</th>
                                                     <th>Contacto</th>
                                                     <th>Teléfono</th>
                                                     <th>Email</th>
-                                                    <th>T. cliente</th>
+                                                    <th>No. Pedidos</th>
                                                     <th>Acciones</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <th scope="row">1</th>
                                                     <td>Facebook</td>
                                                     <td>Yoss</td>
                                                     <td>855 697 6545</td>
                                                     <td>astroboy@dime.com</td>
-                                                    <td class="col-sm-auto">
-                                                        <select class="form-select" aria-label="Default select example">
-                                                            <option selected>Seleccione tipo de cliente</option>
-                                                            <option value="1">Cliente</option>
-                                                            <option value="2">Prospecto</option>
-                                                        </select>
-                                                    </td>
+                                                    <td>4 </td>
                                                     <th>
                                                         <a data-bs-toggle="tooltip" title="Detalles" class="btn btn-success" href="./rfc-details.php">
                                                             <i class="fa fa-eye"></i>
