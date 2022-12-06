@@ -344,8 +344,6 @@
                                                         <a data-bs-toggle="tooltip" title="Carrito" href="#" class="btn btn-secondary">
                                                             <i class="mdi mdi-cart-outline"></i>
                                                         </a>
-
-
                                                     </td>
                                                     <td>
                                                         <div class="form-check mb-2 form-check-dark d-flex justify-content-center">
