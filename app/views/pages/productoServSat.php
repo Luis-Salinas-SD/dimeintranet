@@ -75,7 +75,19 @@
                                             </div>
                                             <div class="mb-3">
                                                 <label for="" class="form-label">Nombre del Producto o Servicio</label>
-                                                <input type="text" name="" id="" class="form-control" placeholder="Nombre">
+                                                <input type="text" name="" id="" class="form-control" placeholder="Producto / Servicio">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="" class="form-label">Regimen Fiscal</label>
+                                                <input type="text" name="" id="" class="form-control" placeholder="Regimen Fiscal">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="" class="form-label">Código Régimen</label>
+                                                <input type="text" name="" id="" class="form-control" placeholder="Código Régimen">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="" class="form-label">Nombre del Régimen</label>
+                                                <input type="text" name="" id="" class="form-control" placeholder="Nombre del Régimen">
                                             </div>
                                         </form>
                                     </div>
