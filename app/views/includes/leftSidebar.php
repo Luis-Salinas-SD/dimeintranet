@@ -116,15 +116,15 @@
                 </li>
                 <!-- Producto / Servicios -->
                 <li>
-                    <a href="#admin" data-bs-toggle="collapse">
+                    <a href="#prod" data-bs-toggle="collapse">
                         <i class="pt-1 mdi-18px mdi mdi-file-cog"></i>
                         <span> Prod y Serv </span>
                         <span class="menu-arrow"></span>
                     </a>
-                    <div class="collapse" id="admin">
+                    <div class="collapse" id="prod">
                         <ul class="nav-second-level">
                             <li>
-                                <a href="#web" data-bs-toggle="collapse">
+                                <a style="padding-right: 40px;" href="#web" data-bs-toggle="collapse">
                                     Web
                                     <span class="menu-arrow pt-1"></span>
                                 </a>
@@ -137,7 +137,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="#print" data-bs-toggle="collapse">
+                                <a style="padding-right: 90px;" href="#print" data-bs-toggle="collapse">
                                     Impresión Offset
                                     <span class="menu-arrow pt-1"></span>
                                 </a>
@@ -150,7 +150,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="#printDig" data-bs-toggle="collapse">
+                                <a style="padding-right: 90px;" href="#printDig" data-bs-toggle="collapse">
                                     Impresión Digital
                                     <span class="menu-arrow pt-1"></span>
                                 </a>
