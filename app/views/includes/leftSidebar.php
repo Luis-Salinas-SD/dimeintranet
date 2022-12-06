@@ -118,7 +118,7 @@
                 <li>
                     <a href="#prod" data-bs-toggle="collapse">
                         <i class="pt-1 mdi-18px mdi mdi-file-cog"></i>
-                        <span> Prod y Serv </span>
+                        <span> Producto y Servicio </span>
                         <span class="menu-arrow"></span>
                     </a>
                     <div class="collapse" id="prod">
