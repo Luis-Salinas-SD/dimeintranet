@@ -110,27 +110,17 @@
                                                             </div>
                                                         </div>
                                                         <div class="row">
-                                                            <div class="col-md-4">
+                                                            <div class="col-md-6">
                                                                 <div class="mb-3">
                                                                     <label for="field-4" class="form-label">Teléfono</label>
                                                                     <input type="tel" class="form-control" id="tel" placeholder="Telefono" pattern="[0-9]{10}" required>
                                                                 </div>
                                                             </div>
-                                                            <div class="col-md-4">
+                                                            <div class="col-md-6">
                                                                 <div class="mb-3">
                                                                     <label for="field-5" class="form-label">Correo</label>
                                                                     <input type="email" class="form-control" id="mail" placeholder="email" required>
                                                                 </div>
-                                                            </div>
-                                                            <div class="col-md-12">
-                                                                <label for="example-select" class="form-label">
-                                                                    Tipo de cliente
-                                                                </label>
-                                                                <select class="form-select" id="tipo-cliente">
-                                                                    <option disabled selected>Selecciona un Tipo de Cliente</option>
-                                                                    <option>Propecto</option>
-                                                                    <option>Cliente</option>
-                                                                </select>
                                                             </div>
                                                         </div>
                                                     </div>

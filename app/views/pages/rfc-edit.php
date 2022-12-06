@@ -52,14 +52,6 @@
                                                             <label class="form-label">Email</label>
                                                             <input type="email" id="tel" class="form-control">
                                                         </div>
-                                                        <div class="mb-3">
-                                                            <label class="form-label">Tipo de Cliente</label>
-                                                            <select class="form-select" id="colonia">
-                                                                <option value="select">Selecciona una opción</option>
-                                                                <option>Cliente</option>
-                                                                <option>Prospecto</option>
-                                                            </select>
-                                                        </div>
                                                         <div class="mb-3 form-check form-check-info">
                                                             <input class="form-check-input" type="checkbox" value="" id="client-check">
                                                             <label class="form-check-label" for="customckeck2">
