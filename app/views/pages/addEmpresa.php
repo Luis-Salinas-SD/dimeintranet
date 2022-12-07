@@ -4,7 +4,7 @@
 
 <!-- body start -->
 
-<body class="loading" data-layout='{"mode": "light", "width": "fluid", "menuPosition": "fixed", "sidebar": { "color": "light", "size": "default", "showuser": true}, "topbar": {"color": "light"}, "showRightSidebarOnPageLoad": true}'>
+<body class="loading" data-layout='{"mode": "light", "width": "fluid", "menuPosition": "fixed", "sidebar": { "color": "dark", "size": "default", "showuser": true}, "topbar": {"color": "light"}, "showRightSidebarOnPageLoad": true}'>
 
     <!-- Begin page -->
     <div id="wrapper">
@@ -95,7 +95,10 @@
                                             </section>
                                             <!-- end col -->
                                             <div class="col-12 px-3">
-                                                <section>
+                                                <button class="btn btn-warning" id="btnChange">
+                                                    Cambiar
+                                                </button>
+                                                <section id="form1" class="showDisplay">
                                                     <h3 class="text-center">Producción</h3>
                                                     <br>
                                                     <div class="d-flex">
@@ -109,7 +112,7 @@
                                                         </div>
                                                     </div>
                                                 </section>
-                                                <section>
+                                                <section id="form2" class="hide">
                                                     <h3 class="text-center">Test</h3>
                                                     <br>
                                                     <div class="d-flex">

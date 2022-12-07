@@ -45,7 +45,7 @@ function cambio() {
         document.getElementById('mensaje').innerHTML = `
         <div class="alert alert-secondary bg-secondary text-white border-0" role="alert">
             ¿ Deseas Utilizar : A la División : <b>${valor}</b> y Al Cliente : <b>${valor2}</b>?
-            <button type="button" class="btn btn-success waves-effect waves-light">Sí</button>
+            <a href="../../views/pages/cotizacionNew.php" class="btn btn-success waves-effect waves-light">Sí</a>
             <button type="button" class="btn btn-danger waves-effect waves-light">No</button>
         </div>
         `
@@ -53,6 +53,30 @@ function cambio() {
         alert('Algo salio mal')
     }
 }
+
+//* CotizacionesNew
+const form1 = document.getElementById('form1');
+const form2 = document.getElementById('form2');
+const btnChange = document.getElementById('btnChange');
+
+if (btnChange) {
+    btnChange.addEventListener('click', (e) => {
+        if (form1.className === 'showDisplay' && form2.className === 'hide') {
+            form2.classList.toggle('showDisplay')
+            form1.classList.toggle('hide')
+            form2.classList.remove('hide')
+            form1.classList.remove('showDisplay')
+        } else if (form1.className === 'hide' && form2.className === 'showDisplay') {
+            form2.classList.toggle('hide')
+            form1.classList.toggle('showDisplay')
+            form2.classList.remove('showDisplay')
+            form1.classList.remove('hide')
+        }
+    });
+}
+
+
+
 
 //! Script - addserver.php
 

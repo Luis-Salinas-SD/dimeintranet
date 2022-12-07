@@ -1,3 +1,6 @@
+.showDisplay{
+  display: block;
+}
 .hide {
   display: none;
 }
