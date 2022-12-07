@@ -116,7 +116,7 @@
                 </li>
                 <!-- Producto / Servicios -->
                 <li>
-                    <a href="#prod" data-bs-toggle="collapse">
+                    <a style="padding-right: 40px;" href="#prod" data-bs-toggle="collapse">
                         <i class="pt-1 mdi-18px mdi mdi-file-cog"></i>
                         <span> Producto y Servicio </span>
                         <span class="menu-arrow"></span>
@@ -410,7 +410,7 @@
                 </li>
                 <!-- Administracion -->
                 <li>
-                    <a href="#admin" data-bs-toggle="collapse">
+                    <a style="padding-right: 40px;" href="#admin" data-bs-toggle="collapse">
                         <i class="pt-1 mdi-18px mdi mdi-file-cog"></i>
                         <span> Administración </span>
                         <span class="menu-arrow"></span>
@@ -418,7 +418,7 @@
                     <div class="collapse" id="admin">
                         <ul class="nav-second-level">
                             <li>
-                                <a href="#submenuAdmin2" data-bs-toggle="collapse">
+                                <a style="padding-right: 40px;" href="#submenuAdmin2" data-bs-toggle="collapse">
                                     <i class="pt-2 fa-1x fas fa-search-dollar"></i>
                                     Catálogos del SAT<span class="menu-arrow pt-1"></span>
                                 </a>
