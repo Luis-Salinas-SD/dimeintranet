@@ -26,43 +26,40 @@
                                 <div class="card-body">
                                     <div class="row">
                                         <form action="">
-                                            <section class="d-flex">
+                                            <section class="d-flex flex-wrap">
                                                 <!-- Column 1 -->
-                                                <div class="col-6 p-3">
-                                                    <form>
-                                                        <div class="mb-3">
-                                                            <label for="nombre" class="form-label">Nombre o Razon Social</label>
-                                                            <input type="text" id="simpleinput" class="form-control" placeholder="Nombre o Razon Social">
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="email" class="form-label">Correo Electrónico</label>
-                                                            <input type="mail" id="simpleinput" class="form-control" placeholder="Correo Electrónico">
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="calle" class="form-label">Calle</label>
-                                                            <input type="text" id="simpleinput" class="form-control" placeholder="Calle">
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="noExt" class="form-label">No. Interior</label>
-                                                            <input type="number" id="simpleinput" class="form-control" placeholder="No. Interior">
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="ciudad" class="form-label">Ciudad</label>
-                                                            <input type="text" id="simpleinput" class="form-control" placeholder="Ciudad">
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="pais" class="form-label">País</label>
-                                                            <input type="text" id="simpleinput" class="form-control" placeholder="País">
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="CP" class="form-label">Subir Foto de Perfil Empresarial</label>
-                                                            <input type="file" name="" id="" class="form-control">
-                                                        </div>
-                                                    </form>
+                                                <div class="col-12 col-md-6 p-3">
+                                                    <div class="mb-3">
+                                                        <label for="nombre" class="form-label">Nombre o Razon Social</label>
+                                                        <input type="text" id="simpleinput" class="form-control" placeholder="Nombre o Razon Social">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="email" class="form-label">Correo Electrónico</label>
+                                                        <input type="mail" id="simpleinput" class="form-control" placeholder="Correo Electrónico">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="calle" class="form-label">Calle</label>
+                                                        <input type="text" id="simpleinput" class="form-control" placeholder="Calle">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="noExt" class="form-label">No. Interior</label>
+                                                        <input type="number" id="simpleinput" class="form-control" placeholder="No. Interior">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="ciudad" class="form-label">Ciudad</label>
+                                                        <input type="text" id="simpleinput" class="form-control" placeholder="Ciudad">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="pais" class="form-label">País</label>
+                                                        <input type="text" id="simpleinput" class="form-control" placeholder="País">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="CP" class="form-label">Subir Foto de Perfil Empresarial</label>
+                                                        <input type="file" name="" id="" class="form-control">
+                                                    </div>
                                                 </div>
-                                                <!-- end col -->
                                                 <!-- Column 2 -->
-                                                <div class="col-6 p-3">
+                                                <div class="col-12 col-md-6 p-3">
                                                     <div class="mb-3">
                                                         <label for="rfc" class="form-label">RFC</label>
                                                         <input type="text" id="" class="form-control" placeholder="RFC">
