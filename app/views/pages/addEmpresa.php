@@ -100,6 +100,10 @@
                                                 </button>
                                                 <section id="form1" class="showDisplay">
                                                     <h3 class="text-center">Producción</h3>
+                                                    <div class="alert alert-info" role="alert">
+                                                        <i class="mdi mdi-alert-circle-outline me-2"></i>
+                                                        Estas en el modo de producción, por favor asegurate de colocar las <b>credenciales correctas.</b>
+                                                    </div>
                                                     <br>
                                                     <div class="d-flex">
                                                         <div class="mb-3 col-6 px-3">
@@ -113,7 +117,7 @@
                                                     </div>
                                                 </section>
                                                 <section id="form2" class="hide">
-                                                    <h3 class="text-center">Test</h3>
+                                                    <h3 class="text-center">Modo de Pruebas</h3>
                                                     <br>
                                                     <div class="d-flex">
                                                         <div class="mb-3 col-6 px-3">
