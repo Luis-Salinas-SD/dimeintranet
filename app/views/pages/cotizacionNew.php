@@ -85,9 +85,54 @@
                                             </tfoot>
                                         </table>
                                     </div>
-                                    <div>
-                                        <b>El precio no incluye diseño</b>
-                                    </div>
+                                    <section class="d-flex flex-wrap justify-content-around align-items-center">
+                                        <div>
+                                            <div class="form-check mb-2 form-check-dark">
+                                                <label class="form-check-label" for="customckeck9">El precio no incluye diseño</label>
+                                                <input class="form-check-input" type="checkbox" value="" id="customckeck9" checked="">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div>
+                                                <h4>
+                                                    <b>Formas de pago</b>
+                                                </h4>
+                                            </div>
+                                            <div class="d-flex flex-wrap">
+                                                <div>
+                                                    <div class="form-check mb-2 form-check-dark">
+                                                        <label class="form-check-label" for="customckeck9">De contado</label>
+                                                        <select name="" id="" class="form-select">
+                                                            <option value="" selected disabled>- Selecciona una opción -</option>
+                                                            <option value="">Opcion 1</option>
+                                                            <option value="">Opcion 2</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="form-check mb-2 form-check-dark">
+                                                        <label class="form-check-label" for="customckeck9">A crédito</label>
+                                                        <select name="" id="" class="form-select">
+                                                            <option value="" selected disabled>- Selecciona una opción -</option>
+                                                            <option value="">Opcion 1</option>
+                                                            <option value="">Opcion 2</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="form-check mb-2 form-check-dark">
+                                                        <label class="form-check-label" for="customckeck9">Tiempos de Entrega (días)</label>
+                                                        <select name="" id="" class="form-select">
+                                                            <option value="" selected disabled>- Selecciona una opción -</option>
+                                                            <option value="">Opcion 1</option>
+                                                            <option value="">Opcion 2</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </section>
                                     <div>
                                         <br> *** <strong>60% de anticipo y 40% restante a contra entrega</strong><br>
                                         <strong>*** Esta cotización tiene una vigencia de 20 días.</strong>
