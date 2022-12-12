@@ -35,6 +35,11 @@
                                             <option value="">Empresa 2</option>
                                         </select>
                                     </div>
+                                    <div class="text-end my-3">
+                                        <button class="btn btn-success" onclick="addFila()" data-bs-toggle="tooltip" title="Detalles">
+                                            <i class="mdi mdi-beaker-plus"></i>
+                                        </button>
+                                    </div>
                                     <div class="table-responsive">
                                         <table class="table table-bordered table-striped table-hover">
                                             <thead>
@@ -45,10 +50,10 @@
                                                     <th>PRECIO UNITARIO</th>
                                                     <th>IMPORTE</th>
                                                     <th>IMPORTE CON IVA</th>
+                                                    <th>Acción</th>
                                                 </tr>
                                             </thead>
-                                            <tbody>
-
+                                            <tbody id="bodyTable">
                                                 <tr>
                                                     <td>
                                                         <input type="number" name="" id="" class="form-control">
@@ -57,12 +62,13 @@
                                                         <input type="text" name="" id="" class="form-control" placeholder="Nombre del Articulo">
                                                     </td>
                                                     <td>
-                                                        <input type="text" name="" id="" class="form-control" placeholder="Nombre del Articulo">
+                                                        <input type="text" name="" id="" class="form-control" placeholder="Características">
                                                     </td>
                                                     <td>
                                                         <input type="number" name="" class="form-control" id="">
                                                     </td>
                                                     <td>$0.00</td>
+                                                    <td>&nbsp;</td>
                                                     <td>&nbsp;</td>
                                                 </tr>
                                             </tbody>
@@ -157,6 +163,38 @@
     <?php include('../includes/rightbar.php') ?>
     <!--Scripts  -->
     <?php include('../includes/scriptsDashboard.php'); ?>
+
+    <script>
+        const addFila = () => {
+            document.getElementById('bodyTable').insertRow(1).innerHTML = `
+            <tr>
+                <td>
+                    <input type="number" name="" id="" class="form-control">
+                </td>
+                <td>
+                    <input type="text" name="" id="" class="form-control" placeholder="Nombre del Articulo">
+                </td>
+                <td>
+                    <input type="text" name="" id="" class="form-control" placeholder="Características">
+                </td>
+                <td>
+                    <input type="number" name="" class="form-control" id="">
+                </td>
+                <td>$0.00</td>
+                <td>&nbsp;</td>
+                <td><button type="button" class="btn btn-danger" onclick="eliminarFila()"><i class="mdi mdi-delete"></i></button></td>
+            </tr>
+        `
+        }
+        const eliminarFila = () => {
+            const table = document.getElementById('bodyTable')
+            const rowCount = table.rows.length
+            if (rowCount <= 1)
+                alert('No se puede eliminar el encabezado')
+            else
+                table.deleteRow(rowCount - 1)
+        }
+    </script>
 </body>
 
 </html>

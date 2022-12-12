@@ -79,7 +79,8 @@
         document.getElementById('tablaprueba').insertRow(1).innerHTML = `
         <td><input type="text" name="" id="" placeholder="DNS"></td>
         <td><input type="text" name="" id="" placeholder="IP DNS"></td>
-        <td><button type="button" class="btn btn-danger" onclick="eliminarFila()"><i class="mdi mdi-delete"></i></button></td>`
+        <td><button type="button" class="btn btn-danger" onclick="eliminarFila()"><i class="mdi mdi-delete"></i></button></td>
+        `
     }
     const eliminarFila = () => {
         const table = document.getElementById('tablaprueba')
