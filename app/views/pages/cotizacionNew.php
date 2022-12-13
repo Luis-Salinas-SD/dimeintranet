@@ -36,7 +36,7 @@
                                         </select>
                                     </div>
                                     <div class="text-end my-3">
-                                        <button class="btn btn-success" onclick="addFila()" data-bs-toggle="tooltip" title="Detalles">
+                                        <button class="btn btn-success" onclick="addFila()" data-bs-toggle="tooltip" title="Agregar item">
                                             <i class="mdi mdi-beaker-plus"></i>
                                         </button>
                                     </div>
@@ -56,7 +56,7 @@
                                             <tbody id="bodyTable">
                                                 <tr>
                                                     <td>
-                                                        <input type="number" name="" id="" class="form-control">
+                                                        <input type="number" name="" id="" class="form-control" placeholder="Cantidad">
                                                     </td>
                                                     <td>
                                                         <input type="text" name="" id="" class="form-control" placeholder="Nombre del Articulo">
@@ -65,7 +65,7 @@
                                                         <input type="text" name="" id="" class="form-control" placeholder="Características">
                                                     </td>
                                                     <td>
-                                                        <input type="number" name="" class="form-control" id="">
+                                                        <input type="number" name="" class="form-control" id="" placeholder="Importe">
                                                     </td>
                                                     <td>$0.00</td>
                                                     <td>&nbsp;</td>
