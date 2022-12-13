@@ -160,8 +160,9 @@
     </div>
     <!-- END wrapper -->
     <!-- Rightbar Start -->
+    <!-- Scripts rightbar -->
     <?php include('../includes/rightbar.php') ?>
-    <!--Scripts  -->
+    <!--Scripts  dashboard -->
     <?php include('../includes/scriptsDashboard.php'); ?>
     <!-- Script para Agregar y Eliminar filas en la tabla -->
     <?php include('../includes/modals/addCotizacion.php') ?>
