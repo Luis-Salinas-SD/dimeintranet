@@ -164,6 +164,7 @@
     <!--Scripts  -->
     <?php include('../includes/scriptsDashboard.php'); ?>
 
+    <!-- Script para Agregar y Eliminar filas en la tabla -->
     <script>
         const addFila = () => {
             document.getElementById('bodyTable').insertRow(1).innerHTML = `
@@ -180,21 +181,30 @@
                 <td>
                     <input type="number" name="" class="form-control" id="">
                 </td>
-                <td>$0.00</td>
-                <td>&nbsp;</td>
-                <td><button type="button" class="btn btn-danger" onclick="eliminarFila()"><i class="mdi mdi-delete"></i></button></td>
+                <td>
+                    $0.00
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <button type="button" class="btn btn-danger" onclick="eliminarFila()">
+                        <i class="mdi mdi-delete"></i>
+                    </button>
+                </td>
             </tr>
         `
         }
         const eliminarFila = () => {
             const table = document.getElementById('bodyTable')
-            const rowCount = table.rows.length
+            const rowCount = table.rows.length;
             if (rowCount <= 1)
                 alert('No se puede eliminar el encabezado')
             else
-                table.deleteRow(rowCount - 1)
+                table.deleteRow(rowCount - 1);
         }
     </script>
+
 </body>
 
 </html>
