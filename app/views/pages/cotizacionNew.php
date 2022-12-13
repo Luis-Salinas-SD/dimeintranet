@@ -50,7 +50,7 @@
                                                     <th>PRECIO UNITARIO</th>
                                                     <th>IMPORTE</th>
                                                     <th>IMPORTE CON IVA</th>
-                                                    <th>Acción</th>
+                                                    <th>ACCIÓN</th>
                                                 </tr>
                                             </thead>
                                             <tbody id="bodyTable">
