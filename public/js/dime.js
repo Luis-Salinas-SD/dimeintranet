@@ -15,7 +15,6 @@ if (checkbox) {
 let validarDivision = document.getElementById('selectDiv');
 let validarClient = document.getElementById('selectClient');
 
-
 let index
 let valor = '';
 let index2
@@ -38,7 +37,6 @@ if (validarClient) {
         cambio()
     })
 }
-
 
 function cambio() {
     if (index != 0 && index2 != 0) {
@@ -75,9 +73,6 @@ if (btnChange) {
     });
 }
 
-
-
-
 //! Script - addserver.php
 
 const agregarFila = () => {
@@ -87,7 +82,6 @@ const agregarFila = () => {
     <td>1</td>
     <td>1x</td>`
 }
-
 
 //* Sweet Alerts
 //! Script - server-details.php
